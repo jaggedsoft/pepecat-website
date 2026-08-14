@@ -413,7 +413,7 @@ h2 {
   animation: hero-settle 760ms var(--ease-out) both;
 }
 
-/* .hero__stamp removed */
+
 
 @keyframes hero-settle {
   from {

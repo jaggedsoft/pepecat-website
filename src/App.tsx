@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react'
 import { MemeWall } from './components/MemeWall'
 import { TokenReceipt, RAYDIUM_URL } from './components/TokenReceipt'
 import { fallbackMemes } from './data/fallbackMemes'
-import { avatarSrcSet, heroAvatar } from './data/avatars'
 import { parseMemeManifest } from './lib/manifest'
 import type { MemeManifest } from './types/media'
 

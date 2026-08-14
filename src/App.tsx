@@ -63,8 +63,12 @@ function App() {
       <main id="main">
         <section className="hero" id="top" aria-labelledby="hero-title">
           <div className="hero__copy">
-            <p className="eyebrow">CULTURE ARCHIVE <span>•</span> PEPECAT <span>•</span> ON-CHAIN</p>
-            <h1 id="hero-title">THE CAT HAS ENTERED THE CHAT<span aria-hidden="true">.</span></h1>
+            <p className="eyebrow"><span className="is-green">CULTURE ARCHIVE</span> <span>•</span> PEPECAT <span>•</span> ON-CHAIN</p>
+            <h1 id="hero-title">
+              THE CAT HAS ENTERED THE CHAT
+              <span className="sr-only">.</span>
+              <span className="hero__period-square" aria-hidden="true" />
+            </h1>
             <p className="hero__lede">Pepe energy. Cat attitude. A community-made archive of memes, fan art, and on-chain chaos.</p>
             <div className="hero__actions">
               <a className="action-button" href="#archive" onClick={navigateFromMenu('archive')} aria-label="Explore the PEPECAT archive">
@@ -86,15 +90,28 @@ function App() {
               </div>
               <div className="is-verified">
                 <dt>Verified</dt>
-                <dd>By Culture</dd>
+                <dd>
+                  <span className="verify-lockup" aria-label="Verified by culture">
+                    {/* stylized signature mark */}
+                    <svg viewBox="0 0 120 24" aria-hidden="true">
+                      <path d="M2 18 C14 8, 24 8, 34 16 S54 20, 62 10 82 8, 90 16 110 20, 118 8" strokeWidth="2.25" strokeLinecap="round" />
+                    </svg>
+                    {/* hex check */}
+                    <svg className="hx" viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M7 2 L17 2 L22 12 L17 22 L7 22 L2 12 Z" fill="none" strokeWidth="1.8" />
+                      <path d="M7 12 l3 3 l7 -7" strokeWidth="2" fill="none" strokeLinecap="round" />
+                    </svg>
+                    <span>By Culture</span>
+                  </span>
+                </dd>
               </div>
             </dl>
           </div>
           <div className="hero__stage" aria-label="Featured PEPECAT mascot">
             <picture>
-              <source type="image/avif" srcSet={avatarSrcSet(heroAvatar.id, 'avif')} sizes="(max-width: 700px) 100vw, 55vw" />
-              <source type="image/webp" srcSet={avatarSrcSet(heroAvatar.id, 'webp')} sizes="(max-width: 700px) 100vw, 55vw" />
-              <img src="/media/avatars/pc03-960.webp" width="2000" height="2000" fetchPriority="high" alt={heroAvatar.label} />
+              <source type="image/avif" srcSet="/media/hero/pepecat-hero-cat-extracted.avif" sizes="(max-width: 700px) 100vw, 55vw" />
+              <source type="image/webp" srcSet="/media/hero/pepecat-hero-cat-extracted.webp" sizes="(max-width: 700px) 100vw, 55vw" />
+              <img src="/media/hero/pepecat-hero-cat-extracted.png" width="2000" height="2000" fetchPriority="high" alt="PEPECAT hero mascot face — green sparkle eyes, coral grin, white whiskers" />
             </picture>
           </div>
         </section>

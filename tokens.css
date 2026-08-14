@@ -16,9 +16,14 @@
   --color-backdrop: oklch(7% 0.02 275 / 0.96);
   --color-transparent: transparent;
 
-  --font-display: "Oswald Variable", "Bricolage Grotesque Variable", "Arial Narrow", sans-serif;
+  --font-display: "Bricolage Grotesque Variable", "Arial Narrow", sans-serif;
+  --font-hero: "Oswald Variable", "Bricolage Grotesque Variable", "Arial Narrow", sans-serif;
   --font-body: "Switzer", Arial, sans-serif;
   --font-mono: "Space Mono", Consolas, monospace;
+
+  /* Hero color accents inspired by mockup */
+  --color-hero-headline: oklch(88% 0.08 290);
+  --color-hero-green: oklch(82% 0.21 150);
 
   --space-1: 0.25rem;
   --space-2: 0.5rem;

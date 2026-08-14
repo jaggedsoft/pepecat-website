@@ -90,25 +90,13 @@ function App() {
               <div className="is-verified">
                 <dt>Verified</dt>
                 <dd>
-                  <span className="verify-lockup" aria-label="Verified by culture">
-                    {/* stylized signature mark */}
-                    <svg viewBox="0 0 120 24" aria-hidden="true">
-                      <path d="M2 18 C14 8, 24 8, 34 16 S54 20, 62 10 82 8, 90 16 110 20, 118 8" strokeWidth="2.25" strokeLinecap="round" />
-                    </svg>
-                    {/* hex check */}
-                    <svg className="hx" viewBox="0 0 24 24" aria-hidden="true">
-                      <path d="M7 2 L17 2 L22 12 L17 22 L7 22 L2 12 Z" fill="none" strokeWidth="1.8" />
-                      <path d="M7 12 l3 3 l7 -7" strokeWidth="2" fill="none" strokeLinecap="round" />
-                    </svg>
-                    <span>By Culture</span>
-                  </span>
+                  <img className="verify-img" src="/media/hero/verified-by-culture.png" alt="Verified by Culture" />
                 </dd>
               </div>
             </dl>
           </div>
           <div className="hero__stage" aria-label="Featured PEPECAT mascot">
             <picture>
-              <source type="image/avif" srcSet="/media/hero/pepecat-hero-cat-extracted.avif" sizes="(max-width: 700px) 100vw, 55vw" />
               <source type="image/webp" srcSet="/media/hero/pepecat-hero-cat-extracted.webp" sizes="(max-width: 700px) 100vw, 55vw" />
               <img src="/media/hero/pepecat-hero-cat-extracted.png" width="2000" height="2000" fetchPriority="high" alt="PEPECAT hero mascot face — green sparkle eyes, coral grin, white whiskers" />
             </picture>

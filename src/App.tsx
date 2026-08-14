@@ -36,6 +36,8 @@ function App() {
     return () => { active = false }
   }, [])
 
+  const memeCount = manifest?.finalCount ?? fallbackMemes.length
+
   const navigateFromMenu = (targetId: string) => (event: React.MouseEvent<HTMLAnchorElement>) => {
     event.preventDefault()
     setMenuOpen(false)
@@ -61,12 +63,34 @@ function App() {
       <main id="main">
         <section className="hero" id="top" aria-labelledby="hero-title">
           <div className="hero__copy">
-            <p className="eyebrow">$PEPECAT <span>·</span> SOLANA <span>·</span> CULTURE ARCHIVE</p>
-            <h1 id="hero-title">The cat has entered the chat<span aria-hidden="true">.</span></h1>
+            <p className="eyebrow">CULTURE ARCHIVE <span>•</span> PEPECAT <span>•</span> ON-CHAIN</p>
+            <h1 id="hero-title">THE CAT HAS ENTERED THE CHAT<span aria-hidden="true">.</span></h1>
             <p className="hero__lede">Pepe energy. Cat attitude. A community-made archive of memes, fan art, and on-chain chaos.</p>
+            <div className="hero__actions">
+              <a className="action-button" href="#archive" onClick={navigateFromMenu('archive')} aria-label="Explore the PEPECAT archive">
+                Explore Archive
+              </a>
+            </div>
+            <dl className="hero__stats mono" aria-label="Archive quick stats">
+              <div>
+                <dt>Meme Art</dt>
+                <dd>{memeCount}</dd>
+              </div>
+              <div>
+                <dt>Contributors</dt>
+                <dd>∞</dd>
+              </div>
+              <div>
+                <dt>Chain</dt>
+                <dd>SOLANA</dd>
+              </div>
+              <div className="is-verified">
+                <dt>Verified</dt>
+                <dd>By Culture</dd>
+              </div>
+            </dl>
           </div>
           <div className="hero__stage" aria-label="Featured PEPECAT mascot">
-            <span className="hero__stamp mono">ARCHIVE ENTRY · 001</span>
             <picture>
               <source type="image/avif" srcSet={avatarSrcSet(heroAvatar.id, 'avif')} sizes="(max-width: 700px) 100vw, 55vw" />
               <source type="image/webp" srcSet={avatarSrcSet(heroAvatar.id, 'webp')} sizes="(max-width: 700px) 100vw, 55vw" />

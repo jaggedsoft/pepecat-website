@@ -16,7 +16,7 @@
   --color-backdrop: oklch(7% 0.02 275 / 0.96);
   --color-transparent: transparent;
 
-  --font-display: "Bricolage Grotesque Variable", "Arial Narrow", sans-serif;
+  --font-display: "Oswald Variable", "Bricolage Grotesque Variable", "Arial Narrow", sans-serif;
   --font-body: "Switzer", Arial, sans-serif;
   --font-mono: "Space Mono", Consolas, monospace;
 

@@ -17,6 +17,7 @@
     "media:social": "node scripts/create-social-assets.mjs"
   },
   "dependencies": {
+    "@fontsource-variable/oswald": "^5.2.6",
     "@fontsource-variable/bricolage-grotesque": "^5.2.6",
     "@fontsource/space-mono": "^5.2.6",
     "react": "^19.1.1",

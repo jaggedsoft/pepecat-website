@@ -22,7 +22,8 @@ const isAsset = (value: unknown): value is MemeAsset => {
     typeof value.height === 'number' &&
     typeof value.alt === 'string' &&
     typeof value.hash === 'string' &&
-    typeof value.sourcePostId === 'string'
+    typeof value.sourcePostId === 'string' &&
+    (value.lastModified === undefined || typeof value.lastModified === 'string')
   )
 }
 

@@ -15,6 +15,7 @@ export interface MemeAsset {
   alt: string
   hash: string
   sourcePostId: string
+  lastModified?: string
 }
 
 export interface MemeManifest {

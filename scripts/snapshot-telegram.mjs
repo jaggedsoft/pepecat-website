@@ -32,6 +32,7 @@ import {
   probeVideoDimensions,
 } from './lib/media-tools.mjs';
 import { parseTelegramPreview } from './lib/telegram-html.mjs';
+import { fallbackLastModified } from './lib/media-recency.mjs';
 
 const AUDITED_BASELINE = { photos: 391, videos: 1 };
 const TARGET_WIDTHS = [480, 960, 1440];
@@ -485,10 +486,18 @@ async function processAll({
     .map((item) => item.asset)
     .filter(Boolean);
   const supplementalIds = new Set(supplementalAssets.map((asset) => asset.id));
+  const previousManifest = await readJson(path.join(outputDirectory, 'manifest.json'), {
+    assets: [],
+  });
+  const previousById = new Map((previousManifest.assets ?? []).map((asset) => [asset.id, asset]));
   const assets = [
     ...telegramAssets.filter((asset) => !supplementalIds.has(asset.id)),
     ...supplementalAssets,
-  ];
+  ].map((asset) => ({
+    ...asset,
+    lastModified:
+      previousById.get(asset.id)?.lastModified ?? fallbackLastModified(asset),
+  }));
   const manifest = {
     snapshotDate: state.snapshotDate ?? SNAPSHOT_DATE,
     auditedBaseline: AUDITED_BASELINE,

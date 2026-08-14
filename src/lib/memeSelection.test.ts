@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 
 import { selectSessionAssets, shuffleAssets } from './memeSelection'
-import { createManifest, MemoryStorage, seededCrypto } from '../test/fixtures'
+import { createAsset, createManifest, MemoryStorage, seededCrypto } from '../test/fixtures'
 
 describe('selectSessionAssets', () => {
   it('selects the requested number of distinct assets', () => {
@@ -11,7 +11,6 @@ describe('selectSessionAssets', () => {
       12,
       new MemoryStorage(),
       'pepecat:test-selection',
-      seededCrypto(42),
     )
 
     expect(selected).toHaveLength(12)
@@ -19,12 +18,27 @@ describe('selectSessionAssets', () => {
     expect(selected.every((asset) => manifest.includes(asset))).toBe(true)
   })
 
+  it('defaults to newest-first by lastModified when no session is stored', () => {
+    const oldest = { ...createAsset(1), lastModified: '2026-01-01T00:00:00.000Z' }
+    const newest = { ...createAsset(2), lastModified: '2026-08-14T00:00:00.000Z' }
+    const middle = { ...createAsset(3), lastModified: '2026-06-01T00:00:00.000Z' }
+
+    const selected = selectSessionAssets(
+      [oldest, newest, middle],
+      2,
+      new MemoryStorage(),
+      'pepecat:test-newest',
+    )
+
+    expect(selected.map(({ id }) => id)).toEqual(['meme-0002', 'meme-0003'])
+  })
+
   it('persists the selection for the browser session', () => {
     const manifest = createManifest(30)
     const storage = new MemoryStorage()
 
-    const first = selectSessionAssets(manifest, 12, storage, undefined, seededCrypto(1))
-    const second = selectSessionAssets(manifest, 12, storage, undefined, seededCrypto(999))
+    const first = selectSessionAssets(manifest, 12, storage)
+    const second = selectSessionAssets(manifest, 12, storage)
 
     expect(second.map(({ id }) => id)).toEqual(first.map(({ id }) => id))
   })
@@ -32,9 +46,9 @@ describe('selectSessionAssets', () => {
   it('recovers when persisted IDs are no longer present in the manifest', () => {
     const manifest = createManifest(30)
     const storage = new MemoryStorage()
-    storage.setItem('pepecat:meme-selection:v1', JSON.stringify(['removed-asset']))
+    storage.setItem('pepecat:meme-selection:v2', JSON.stringify(['removed-asset']))
 
-    const selected = selectSessionAssets(manifest, 12, storage, undefined, seededCrypto(8))
+    const selected = selectSessionAssets(manifest, 12, storage)
 
     expect(selected).toHaveLength(12)
     expect(selected.some(({ id }) => id === 'removed-asset')).toBe(false)
@@ -42,7 +56,7 @@ describe('selectSessionAssets', () => {
 
   it('returns every asset once when the requested count exceeds the manifest', () => {
     const manifest = createManifest(5)
-    const selected = selectSessionAssets(manifest, 12, new MemoryStorage(), undefined, seededCrypto(3))
+    const selected = selectSessionAssets(manifest, 12, new MemoryStorage())
 
     expect(selected).toHaveLength(5)
     expect(new Set(selected.map(({ id }) => id)).size).toBe(5)

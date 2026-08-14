@@ -1,5 +1,5 @@
 {
-  "importDate": "2026-08-12",
+  "importDate": "2026-08-14",
   "assets": [
     {
       "id": "supp-temple-expedition",
@@ -248,6 +248,120 @@
         "alt": "PEPECAT dodging red security lasers above a vault of golden coins and a key",
         "hash": "afe608131f82c1a968d115e2e59d085aaf1a9f47580cb8c34cba73fe3e3c64d5",
         "sourcePostId": "supplemental-supp-laser-heist"
+      }
+    },
+    {
+      "id": "supp-pump-flight",
+      "rawHash": "5d0c79527ad8f14e188a1c5c107f772762a93dc82760d786e0900628be51afd0",
+      "bytes": 209108,
+      "asset": {
+        "id": "supp-pump-flight",
+        "kind": "image",
+        "sources": [
+          {
+            "width": 480,
+            "avif": "/media/memes/supp-pump-flight-480.avif",
+            "webp": "/media/memes/supp-pump-flight-480.webp"
+          },
+          {
+            "width": 960,
+            "avif": "/media/memes/supp-pump-flight-960.avif",
+            "webp": "/media/memes/supp-pump-flight-960.webp"
+          },
+          {
+            "width": 1440,
+            "avif": "/media/memes/supp-pump-flight-1440.avif",
+            "webp": "/media/memes/supp-pump-flight-1440.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2000,
+        "alt": "PEPECAT flying with a neon green aura and profit ticks",
+        "hash": "5d0c79527ad8f14e188a1c5c107f772762a93dc82760d786e0900628be51afd0",
+        "sourcePostId": "supplemental-supp-pump-flight"
+      }
+    },
+    {
+      "id": "supp-stage-candles",
+      "rawHash": "c7a3d89a1d9dfd3db9758d23a6eca681a5e8915bdfb8086d420953855dd801be",
+      "bytes": 32796,
+      "asset": {
+        "id": "supp-stage-candles",
+        "kind": "image",
+        "sources": [
+          {
+            "width": 400,
+            "avif": "/media/memes/supp-stage-candles-400.avif",
+            "webp": "/media/memes/supp-stage-candles-400.webp"
+          }
+        ],
+        "width": 400,
+        "height": 400,
+        "alt": "PEPECAT on stage pointing at a green star before a candle audience",
+        "hash": "c7a3d89a1d9dfd3db9758d23a6eca681a5e8915bdfb8086d420953855dd801be",
+        "sourcePostId": "supplemental-supp-stage-candles"
+      }
+    },
+    {
+      "id": "supp-space-burger",
+      "rawHash": "a83e337f5c4dc1b2a08d4ec3039f42a0eb9598353dece98de5966df13f5d36e1",
+      "bytes": 2092814,
+      "asset": {
+        "id": "supp-space-burger",
+        "kind": "image",
+        "sources": [
+          {
+            "width": 480,
+            "avif": "/media/memes/supp-space-burger-480.avif",
+            "webp": "/media/memes/supp-space-burger-480.webp"
+          },
+          {
+            "width": 960,
+            "avif": "/media/memes/supp-space-burger-960.avif",
+            "webp": "/media/memes/supp-space-burger-960.webp"
+          },
+          {
+            "width": 1200,
+            "avif": "/media/memes/supp-space-burger-1200.avif",
+            "webp": "/media/memes/supp-space-burger-1200.webp"
+          }
+        ],
+        "width": 1200,
+        "height": 1200,
+        "alt": "PEPECAT on a giant green candle in space with a burger and a dog",
+        "hash": "a83e337f5c4dc1b2a08d4ec3039f42a0eb9598353dece98de5966df13f5d36e1",
+        "sourcePostId": "supplemental-supp-space-burger"
+      }
+    },
+    {
+      "id": "supp-bar-salaryman",
+      "rawHash": "cdd4bac1e7e8b81ddce19f2c35ad51c81ade6525c5b8e5d0826d34a4d4af400d",
+      "bytes": 2143514,
+      "asset": {
+        "id": "supp-bar-salaryman",
+        "kind": "image",
+        "sources": [
+          {
+            "width": 480,
+            "avif": "/media/memes/supp-bar-salaryman-480.avif",
+            "webp": "/media/memes/supp-bar-salaryman-480.webp"
+          },
+          {
+            "width": 960,
+            "avif": "/media/memes/supp-bar-salaryman-960.avif",
+            "webp": "/media/memes/supp-bar-salaryman-960.webp"
+          },
+          {
+            "width": 965,
+            "avif": "/media/memes/supp-bar-salaryman-965.avif",
+            "webp": "/media/memes/supp-bar-salaryman-965.webp"
+          }
+        ],
+        "width": 965,
+        "height": 1200,
+        "alt": "PEPECAT salaryman at a Japanese bar with beer",
+        "hash": "cdd4bac1e7e8b81ddce19f2c35ad51c81ade6525c5b8e5d0826d34a4d4af400d",
+        "sourcePostId": "supplemental-supp-bar-salaryman"
       }
     }
   ]

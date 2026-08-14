@@ -1,4 +1,5 @@
 import type { MemeAsset } from '../types/media'
+import { selectNewestAssets } from './mediaRecency'
 
 export type RandomCrypto = Pick<Crypto, 'getRandomValues'>
 
@@ -33,8 +34,7 @@ export function selectSessionAssets(
   manifest: MemeAsset[],
   count: number,
   storage: Pick<Storage, 'getItem' | 'setItem'> = sessionStorage,
-  key = 'pepecat:meme-selection:v1',
-  random: RandomCrypto = crypto,
+  key = 'pepecat:meme-selection:v2',
 ): MemeAsset[] {
   try {
     const savedIds = JSON.parse(storage.getItem(key) ?? '[]') as unknown
@@ -50,7 +50,7 @@ export function selectSessionAssets(
     // A malformed session value is safely replaced below.
   }
 
-  const selected = pickUnique(manifest, count, random)
+  const selected = selectNewestAssets(manifest, count)
   storage.setItem(key, JSON.stringify(selected.map((asset) => asset.id)))
   return selected
 }
@@ -77,5 +77,5 @@ export function shuffleAssets(
 export const persistSelection = (
   assets: MemeAsset[],
   storage: Pick<Storage, 'setItem'> = sessionStorage,
-  key = 'pepecat:meme-selection:v1',
+  key = 'pepecat:meme-selection:v2',
 ) => storage.setItem(key, JSON.stringify(assets.map((asset) => asset.id)))

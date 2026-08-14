@@ -9,7 +9,7 @@ interface MemeWallProps {
   totalCount: number
 }
 
-const SESSION_KEY = 'pepecat:meme-selection:v1'
+const SESSION_KEY = 'pepecat:meme-selection:v2'
 const PREVIEW_COUNT = 20
 
 export function MemeWall({ manifest, totalCount }: MemeWallProps) {

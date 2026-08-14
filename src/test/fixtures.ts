@@ -8,6 +8,7 @@ export type TestMemeAsset = {
   alt: string
   hash: string
   sourcePostId: string
+  lastModified?: string
 }
 
 export function createAsset(index: number, kind: 'image' | 'video' = 'image'): TestMemeAsset {

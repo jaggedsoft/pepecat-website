@@ -18,13 +18,14 @@ describe('Lightbox', () => {
     expect(onClose).toHaveBeenCalledTimes(1)
   })
 
-  it('renders video with controls and without autoplay', () => {
+  it('renders video with autoplay, loop, and muted playback', () => {
     const asset = createAsset(391, 'video')
 
     render(<Lightbox assets={[asset]} activeIndex={0} onChange={vi.fn()} onClose={vi.fn()} />)
 
     const video = screen.getByLabelText(asset.alt) as HTMLVideoElement
-    expect(video.controls).toBe(true)
-    expect(video.autoplay).toBe(false)
+    expect(video.autoplay).toBe(true)
+    expect(video.loop).toBe(true)
+    expect(video.muted).toBe(true)
   })
 })

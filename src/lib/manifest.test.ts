@@ -26,6 +26,18 @@ describe('parseMemeManifest', () => {
     })
   })
 
+  it('preserves lastModified metadata when present', () => {
+    const stamped = { ...createAsset(1), lastModified: '2026-08-14T00:26:00.000Z' }
+    const parsed = parseMemeManifest({
+      snapshotDate: '2026-08-11',
+      auditedBaseline: { photos: 1, videos: 0 },
+      finalCount: 1,
+      assets: [stamped],
+    })
+
+    expect(parsed.assets[0].lastModified).toBe('2026-08-14T00:26:00.000Z')
+  })
+
   it.each([
     ['an invalid kind', { ...createAsset(1), kind: 'gif' }],
     ['a missing content hash', { ...createAsset(1), hash: undefined }],

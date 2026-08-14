@@ -20,7 +20,7 @@ npm run test:e2e
 
 ## Media snapshot
 
-The bundled archive combines a one-time local snapshot of the publicly reachable `PepeCat_Memes` Telegram history taken on 2026-08-11 with nine user-supplied additions imported on 2026-08-12. It contains 404 locally served assets: 395 still images and nine locally optimized videos/animations. Telegram's channel header reported an audited baseline of 391 photos and one video; its public history exposed 389 photo files plus five separately classified animations at snapshot time.
+The bundled archive combines a one-time local snapshot of the publicly reachable `PepeCat_Memes` Telegram history taken on 2026-08-11 with thirteen user-supplied additions. It contains 408 locally served assets: 399 still images and nine locally optimized videos/animations. Telegram's channel header reported an audited baseline of 391 photos and one video; its public history exposed 389 photo files plus five separately classified animations at snapshot time.
 
 Raw downloads and normalized avatar PNGs live under `media-raw/` and are deliberately excluded from `dist`. The production bundle contains only responsive AVIF/WebP derivatives, six optimized MP4 files, local manifests, and generated social artwork. Telegram's preview CDN exposes most photo masters at no more than 800 pixels, so the processor generates 480-pixel and intrinsic-width variants without inventing blurry 960/1440 upscales. The supplied avatar masters do receive 480, 960, and 1440-pixel derivatives.
 
@@ -43,7 +43,7 @@ The static token copy was rechecked against finalized Solana mainnet state on 20
 
 - `src/App.tsx` — page composition and editorial copy.
 - `src/components/` — archive wall, lightbox, responsive media, and token receipt.
-- `src/lib/` — manifest validation and session-randomized selection logic.
+- `src/lib/` — manifest validation and newest-first gallery selection and shuffle logic.
 - `src/styles.css` — Hallmark visual system and responsive layout.
 - `public/media/` — generated production assets and manifests.
 - `scripts/` — resumable Telegram, supplemental-art, avatar, and social media-processing pipeline.

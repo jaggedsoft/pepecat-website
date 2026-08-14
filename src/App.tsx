@@ -85,7 +85,7 @@ function App() {
           {manifest ? (
             <>
               <MemeWall manifest={manifest.assets} totalCount={manifest.finalCount} />
-              <p className="snapshot-note mono">LOCAL SNAPSHOT · {manifest.snapshotDate} · {manifest.finalCount} MEDIA FILES</p>
+              <p className="snapshot-note mono">{manifest.finalCount} MEDIA FILES</p>
             </>
           ) : (
             <p className="archive-loading mono" role="status">OPENING THE LOCAL ARCHIVE…</p>

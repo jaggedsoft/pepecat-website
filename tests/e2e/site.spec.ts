@@ -136,41 +136,27 @@ test('publishes every verified external destination without placeholders', async
   await expect(page.locator(`a[href="https://raydium.io/swap/"]`)).toHaveCount(0)
 })
 
-test('keeps video user-controlled and provides a text alternative', async ({ page }) => {
+test('autoplays looping muted gallery video and provides a text alternative', async ({ page }) => {
   const manifestResponse = await page.request.get('/media/memes/manifest.json')
   expect(manifestResponse.ok()).toBe(true)
 
   const manifest = (await manifestResponse.json()) as {
     assets: Array<{ id: string; kind: 'image' | 'video'; alt: string }>
   }
-  expect(manifest.assets.filter((asset) => asset.id.startsWith('supp-'))).toHaveLength(9)
+  expect(manifest.assets.filter((asset) => asset.id.startsWith('supp-'))).toHaveLength(13)
   const video = manifest.assets.find((asset) => asset.kind === 'video')
   expect(video, 'The local Telegram snapshot must include its audited video').toBeTruthy()
 
-  const videoIndex = manifest.assets.findIndex((asset) => asset.id === video!.id)
-  await page.evaluate(() => sessionStorage.clear())
-  await page.addInitScript((targetIndex) => {
-    let calls = 0
-    Object.defineProperty(window.crypto, 'getRandomValues', {
-      configurable: true,
-      value: <T extends ArrayBufferView | null>(array: T): T => {
-        calls += 1
-        if (!array) return array
-        const values = array as unknown as { length: number; [index: number]: number }
-        for (let index = 0; index < values.length; index += 1) values[index] = 0
-        // The wall mounts once from the fetched manifest. Its first draw then
-        // deterministically selects the audited video.
-        if (calls === 1 && values.length > 0) values[0] = targetIndex
-        return array
-      },
-    })
-  }, videoIndex)
+  await page.addInitScript((videoId) => {
+    sessionStorage.setItem('pepecat:meme-selection:v2', JSON.stringify([videoId]))
+  }, video!.id)
   await page.goto('/')
 
   const videoElement = page.getByLabel(video!.alt)
   await expect(videoElement).toBeVisible()
-  await expect(videoElement).toHaveJSProperty('controls', true)
-  await expect(videoElement).toHaveJSProperty('autoplay', false)
+  await expect(videoElement).toHaveJSProperty('autoplay', true)
+  await expect(videoElement).toHaveJSProperty('loop', true)
+  await expect(videoElement).toHaveJSProperty('muted', true)
   await expect(videoElement).toHaveAttribute('aria-label', video!.alt)
   await expect(videoElement.locator('p')).toContainText(video!.alt)
 })

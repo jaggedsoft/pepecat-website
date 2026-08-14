@@ -24,9 +24,12 @@ export function ResponsiveMedia({ asset, loading = 'lazy', onError, className }:
     return (
       <video
         className={className}
-        controls
+        autoPlay
+        loop
+        muted
         playsInline
-        preload="none"
+        controls
+        preload="metadata"
         poster={asset.poster}
         aria-label={asset.alt}
         onError={onError}

@@ -8,7 +8,7 @@ describe('MemeWall', () => {
   it('replaces a failed media item with an unused archive asset', async () => {
     const manifest = Array.from({ length: 21 }, (_, index) => createAsset(index + 1))
     const visible = manifest.slice(0, 20)
-    sessionStorage.setItem('pepecat:meme-selection:v1', JSON.stringify(visible.map(({ id }) => id)))
+    sessionStorage.setItem('pepecat:meme-selection:v2', JSON.stringify(visible.map(({ id }) => id)))
 
     render(<MemeWall manifest={manifest} totalCount={manifest.length} />)
 
@@ -36,7 +36,7 @@ describe('MemeWall', () => {
   it('replaces the visible set and persists it when shuffled', () => {
     const manifest = Array.from({ length: 50 }, (_, index) => createAsset(index + 1))
     const current = manifest.slice(0, 20)
-    sessionStorage.setItem('pepecat:meme-selection:v1', JSON.stringify(current.map(({ id }) => id)))
+    sessionStorage.setItem('pepecat:meme-selection:v2', JSON.stringify(current.map(({ id }) => id)))
 
     render(<MemeWall manifest={manifest} totalCount={manifest.length} />)
     fireEvent.click(screen.getByRole('button', { name: /shuffle the memes/i }))
@@ -46,19 +46,34 @@ describe('MemeWall', () => {
     expect(openers).toHaveLength(20)
     expect(openers.every((opener) => !currentLabels.has(opener.getAttribute('aria-label') ?? ''))).toBe(true)
 
-    const persisted = JSON.parse(sessionStorage.getItem('pepecat:meme-selection:v1') ?? '[]') as string[]
+    const persisted = JSON.parse(sessionStorage.getItem('pepecat:meme-selection:v2') ?? '[]') as string[]
     expect(persisted).toHaveLength(20)
     expect(persisted.every((id) => !current.some((asset) => asset.id === id))).toBe(true)
   })
 
-  it('never autoplays archive video and exposes native controls', () => {
+  it('autoplays looping muted archive video', () => {
     const video = createAsset(391, 'video')
 
     render(<MemeWall manifest={[video]} totalCount={1} />)
 
     const element = screen.getByLabelText(video.alt) as HTMLVideoElement
-    expect(element.controls).toBe(true)
-    expect(element.autoplay).toBe(false)
-    expect(element.preload).not.toBe('auto')
+    expect(element.autoplay).toBe(true)
+    expect(element.loop).toBe(true)
+    expect(element.muted).toBe(true)
+    expect(element.playsInline).toBe(true)
+  })
+
+  it('defaults the wall to newest-first lastModified order', () => {
+    const oldest = { ...createAsset(1), lastModified: '2026-01-01T00:00:00.000Z' }
+    const newest = { ...createAsset(2), lastModified: '2026-08-14T00:00:00.000Z' }
+    const middle = { ...createAsset(3), lastModified: '2026-06-01T00:00:00.000Z' }
+
+    render(<MemeWall manifest={[oldest, newest, middle]} totalCount={3} />)
+
+    expect(screen.getAllByRole('img').map((image) => image.getAttribute('alt'))).toEqual([
+      newest.alt,
+      middle.alt,
+      oldest.alt,
+    ])
   })
 })

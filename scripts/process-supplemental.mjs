@@ -20,8 +20,9 @@ import {
   probeVideoDimensions,
   runProcess,
 } from './lib/media-tools.mjs'
+import { mergeSupplementalAssets } from './lib/media-recency.mjs'
 
-const IMPORT_DATE = '2026-08-12'
+const IMPORT_DATE = '2026-08-14'
 const TARGET_WIDTHS = [480, 960, 1440]
 const RAW_DIRECTORY = path.join(PROJECT_ROOT, 'media-raw', 'supplemental')
 const OUTPUT_DIRECTORY = path.join(PROJECT_ROOT, 'public', 'media', 'memes')
@@ -81,6 +82,30 @@ const ITEMS = [
     kind: 'image',
     source: 'C:/Users/AI/Documents/pepecat/photo_2026-08-11_19-51-50.jpg',
     alt: 'PEPECAT dodging red security lasers above a vault of golden coins and a key',
+  },
+  {
+    id: 'supp-pump-flight',
+    kind: 'image',
+    source: path.join(PROJECT_ROOT, 'media-raw', 'supplemental', 'supp-pump-flight.webp'),
+    alt: 'PEPECAT flying with a neon green aura and profit ticks',
+  },
+  {
+    id: 'supp-stage-candles',
+    kind: 'image',
+    source: path.join(PROJECT_ROOT, 'media-raw', 'supplemental', 'supp-stage-candles.jpg'),
+    alt: 'PEPECAT on stage pointing at a green star before a candle audience',
+  },
+  {
+    id: 'supp-space-burger',
+    kind: 'image',
+    source: path.join(PROJECT_ROOT, 'media-raw', 'supplemental', 'supp-space-burger.png'),
+    alt: 'PEPECAT on a giant green candle in space with a burger and a dog',
+  },
+  {
+    id: 'supp-bar-salaryman',
+    kind: 'image',
+    source: path.join(PROJECT_ROOT, 'media-raw', 'supplemental', 'supp-bar-salaryman.png'),
+    alt: 'PEPECAT salaryman at a Japanese bar with beer',
   },
 ]
 
@@ -177,15 +202,11 @@ async function processVideo(sharp, ffmpegPath, item, rawPath, hash) {
   }
 }
 
-async function mergePublicManifest(assets) {
+async function mergePublicManifest(assets, now) {
   const manifestPath = path.join(OUTPUT_DIRECTORY, 'manifest.json')
   const manifest = await readJson(manifestPath)
   if (!manifest?.assets) throw new Error('Run the Telegram snapshot before supplemental import.')
-  const supplementalIds = new Set(ITEMS.map((item) => item.id))
-  const mergedAssets = [
-    ...manifest.assets.filter((asset) => !supplementalIds.has(asset.id)),
-    ...assets,
-  ]
+  const mergedAssets = mergeSupplementalAssets(manifest.assets, assets, now)
   await writeJsonAtomic(manifestPath, {
     ...manifest,
     finalCount: mergedAssets.length,
@@ -195,8 +216,9 @@ async function mergePublicManifest(assets) {
 
 async function main() {
   await Promise.all([ensureDir(RAW_DIRECTORY), ensureDir(OUTPUT_DIRECTORY)])
+  const now = new Date().toISOString()
   const sharp = loadSharp()
-  const ffmpegPath = loadFfmpegPath()
+  let ffmpegPath = null
   const cached = await readJson(PROCESSED_PATH, { assets: [] })
   const cachedById = new Map(cached.assets.map((entry) => [entry.id, entry]))
   const processed = []
@@ -208,6 +230,7 @@ async function main() {
       processed.push(existing)
       continue
     }
+    if (item.kind === 'video' && !ffmpegPath) ffmpegPath = loadFfmpegPath()
     const asset = item.kind === 'video'
       ? await processVideo(sharp, ffmpegPath, item, rawPath, hash)
       : await processImage(sharp, item, rawPath, hash)
@@ -216,7 +239,7 @@ async function main() {
   }
 
   await writeJsonAtomic(PROCESSED_PATH, { importDate: IMPORT_DATE, assets: processed })
-  await mergePublicManifest(processed.map((entry) => entry.asset))
+  await mergePublicManifest(processed.map((entry) => entry.asset), now)
   console.log(`Imported ${processed.length} supplemental PEPECAT artworks.`)
 }
 

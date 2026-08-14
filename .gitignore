@@ -1,0 +1,16 @@
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+.npm-cache/
+media-raw/telegram/*
+!media-raw/telegram/.gitkeep
+media-raw/avatars/*
+!media-raw/avatars/.gitkeep
+.lighthouse*.json
+lighthouse-report.*
+*.tsbuildinfo
+
+.vercel
+.env*

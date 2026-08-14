@@ -1,0 +1,67 @@
+/* Hallmark · genre: atmospheric · macrostructure: Ecosystem Index · tone: luxury
+ * theme: custom (vibe: "midnight phosphor collectible") · paper oklch(11% 0.018 160) · accent oklch(74% 0.15 142)
+ * display: Bricolage Grotesque 800 + Switzer 400 · axes: dark / grotesk-sans / chromatic-green
+ * nav: N5 · footer: Ft5 · enrichment: real mascot artwork and local culture archive
+ */
+:root {
+  color-scheme: dark;
+  --color-bg: #070414;
+  --color-bg-deep: #03020b;
+  --color-panel: #0e0a1f;
+  --color-panel-raised: #15102a;
+  --color-ink: #b7add2;
+  --color-ink-strong: #c9bdf1;
+  --color-muted: #9d93b8;
+  --color-faint: #746b8d;
+  --color-divider: #4a425f;
+  --color-divider-soft: #282237;
+  --color-accent: #ff4a38;
+  --color-accent-ink: #070414;
+  --color-neon: #64f40c;
+  --color-hero-lavender: #b5a9e2;
+  --color-bloom-a: rgb(98 74 160 / 0.12);
+  --color-bloom-b: rgb(45 31 82 / 0.28);
+  --color-shadow: rgb(2 1 7 / 0.66);
+  --color-backdrop: rgb(3 2 11 / 0.94);
+  --color-transparent: transparent;
+  --color-hairline: rgb(201 189 241 / 0.13);
+  --color-inset: rgb(255 255 255 / 0.08);
+  --color-icon-well: rgb(7 4 20 / 0.24);
+  --color-nav: color-mix(in oklch, var(--color-bg) 68%, transparent);
+
+  --font-display: "Bricolage Grotesque Variable", "Arial Narrow", sans-serif;
+  --font-hero: "Bebas Neue", Impact, "Arial Narrow", sans-serif;
+  --font-body: "Switzer", Arial, sans-serif;
+  --font-mono: "Space Mono", Consolas, monospace;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --space-9: 6rem;
+  --space-10: 8rem;
+  --text-body: 1rem;
+  --text-display: clamp(3.25rem, 7vw, 5.75rem);
+  --gutter: clamp(1rem, 3.6vw, 4rem);
+  --content-max: 92rem;
+  --rule: 1px solid var(--color-divider-soft);
+  --rule-strong: 1px solid var(--color-divider);
+  --radius-shell: 1.75rem;
+  --radius-core: 1.35rem;
+  --radius-tile: 1.15rem;
+  --radius-pill: 999px;
+  --focus-ring: 3px solid var(--color-accent);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-fast: 180ms;
+  --dur-settle: 800ms;
+  --z-content: 0;
+  --z-nav: 20;
+  --z-grain: 30;
+  --z-overlay: 40;
+  --z-lightbox: 50;
+  --z-skip: 60;
+}

@@ -1,0 +1,663 @@
+{
+  "importDate": "2026-08-14",
+  "assets": [
+    {
+      "id": "supp-green-night",
+      "rawHash": "7188fd9543876a4e1d10bfc6603c475bfaef09053e34e8c106d2a954a29d4135",
+      "bytes": 425840,
+      "asset": {
+        "id": "supp-green-night",
+        "kind": "image",
+        "sources": [
+          {
+            "width": 480,
+            "avif": "/media/memes/supp-green-night-480.avif",
+            "webp": "/media/memes/supp-green-night-480.webp"
+          },
+          {
+            "width": 960,
+            "avif": "/media/memes/supp-green-night-960.avif",
+            "webp": "/media/memes/supp-green-night-960.webp"
+          },
+          {
+            "width": 1440,
+            "avif": "/media/memes/supp-green-night-1440.avif",
+            "webp": "/media/memes/supp-green-night-1440.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2000,
+        "alt": "PEPECAT standing in a glowing green catcoin chamber",
+        "hash": "7188fd9543876a4e1d10bfc6603c475bfaef09053e34e8c106d2a954a29d4135",
+        "sourcePostId": "supplemental-supp-green-night"
+      }
+    },
+    {
+      "id": "supp-neon-race",
+      "rawHash": "2106241e128bdc166ff1386f72859b4cdbc773a068b08e3105d275f62e992b00",
+      "bytes": 266081,
+      "asset": {
+        "id": "supp-neon-race",
+        "kind": "image",
+        "sources": [
+          {
+            "width": 480,
+            "avif": "/media/memes/supp-neon-race-480.avif",
+            "webp": "/media/memes/supp-neon-race-480.webp"
+          },
+          {
+            "width": 960,
+            "avif": "/media/memes/supp-neon-race-960.avif",
+            "webp": "/media/memes/supp-neon-race-960.webp"
+          },
+          {
+            "width": 1200,
+            "avif": "/media/memes/supp-neon-race-1200.avif",
+            "webp": "/media/memes/supp-neon-race-1200.webp"
+          }
+        ],
+        "width": 1200,
+        "height": 952,
+        "alt": "PEPECAT racing a neon green motorcycle through a futuristic city",
+        "hash": "2106241e128bdc166ff1386f72859b4cdbc773a068b08e3105d275f62e992b00",
+        "sourcePostId": "supplemental-supp-neon-race"
+      }
+    },
+    {
+      "id": "supp-green-rock-show",
+      "rawHash": "3e028d70e984dd8a0dbf38628a44f40780b699a3afbfe7f919cb39c0f4d6f2c3",
+      "bytes": 250340,
+      "asset": {
+        "id": "supp-green-rock-show",
+        "kind": "image",
+        "sources": [
+          {
+            "width": 480,
+            "avif": "/media/memes/supp-green-rock-show-480.avif",
+            "webp": "/media/memes/supp-green-rock-show-480.webp"
+          },
+          {
+            "width": 960,
+            "avif": "/media/memes/supp-green-rock-show-960.avif",
+            "webp": "/media/memes/supp-green-rock-show-960.webp"
+          },
+          {
+            "width": 1200,
+            "avif": "/media/memes/supp-green-rock-show-1200.avif",
+            "webp": "/media/memes/supp-green-rock-show-1200.webp"
+          }
+        ],
+        "width": 1200,
+        "height": 1029,
+        "alt": "PEPECAT playing an electric guitar in a vivid green rock show",
+        "hash": "3e028d70e984dd8a0dbf38628a44f40780b699a3afbfe7f919cb39c0f4d6f2c3",
+        "sourcePostId": "supplemental-supp-green-rock-show"
+      }
+    },
+    {
+      "id": "supp-space-feast",
+      "rawHash": "cdd4bac1e7e8b81ddce19f2c35ad51c81ade6525c5b8e5d0826d34a4d4af400d",
+      "bytes": 2143514,
+      "asset": {
+        "id": "supp-space-feast",
+        "kind": "image",
+        "sources": [
+          {
+            "width": 480,
+            "avif": "/media/memes/supp-space-feast-480.avif",
+            "webp": "/media/memes/supp-space-feast-480.webp"
+          },
+          {
+            "width": 960,
+            "avif": "/media/memes/supp-space-feast-960.avif",
+            "webp": "/media/memes/supp-space-feast-960.webp"
+          },
+          {
+            "width": 965,
+            "avif": "/media/memes/supp-space-feast-965.avif",
+            "webp": "/media/memes/supp-space-feast-965.webp"
+          }
+        ],
+        "width": 965,
+        "height": 1200,
+        "alt": "PEPECAT and friends riding glowing green candles through space with snacks",
+        "hash": "cdd4bac1e7e8b81ddce19f2c35ad51c81ade6525c5b8e5d0826d34a4d4af400d",
+        "sourcePostId": "supplemental-supp-space-feast"
+      }
+    },
+    {
+      "id": "supp-green-crowd",
+      "rawHash": "a83e337f5c4dc1b2a08d4ec3039f42a0eb9598353dece98de5966df13f5d36e1",
+      "bytes": 2092814,
+      "asset": {
+        "id": "supp-green-crowd",
+        "kind": "image",
+        "sources": [
+          {
+            "width": 480,
+            "avif": "/media/memes/supp-green-crowd-480.avif",
+            "webp": "/media/memes/supp-green-crowd-480.webp"
+          },
+          {
+            "width": 960,
+            "avif": "/media/memes/supp-green-crowd-960.avif",
+            "webp": "/media/memes/supp-green-crowd-960.webp"
+          },
+          {
+            "width": 1200,
+            "avif": "/media/memes/supp-green-crowd-1200.avif",
+            "webp": "/media/memes/supp-green-crowd-1200.webp"
+          }
+        ],
+        "width": 1200,
+        "height": 1200,
+        "alt": "PEPECAT performing above a crowd of glowing green candlesticks",
+        "hash": "a83e337f5c4dc1b2a08d4ec3039f42a0eb9598353dece98de5966df13f5d36e1",
+        "sourcePostId": "supplemental-supp-green-crowd"
+      }
+    },
+    {
+      "id": "supp-green-flight",
+      "rawHash": "5d0c79527ad8f14e188a1c5c107f772762a93dc82760d786e0900628be51afd0",
+      "bytes": 209108,
+      "asset": {
+        "id": "supp-green-flight",
+        "kind": "image",
+        "sources": [
+          {
+            "width": 480,
+            "avif": "/media/memes/supp-green-flight-480.avif",
+            "webp": "/media/memes/supp-green-flight-480.webp"
+          },
+          {
+            "width": 960,
+            "avif": "/media/memes/supp-green-flight-960.avif",
+            "webp": "/media/memes/supp-green-flight-960.webp"
+          },
+          {
+            "width": 1440,
+            "avif": "/media/memes/supp-green-flight-1440.avif",
+            "webp": "/media/memes/supp-green-flight-1440.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2000,
+        "alt": "PEPECAT soaring through neon green gains and catcoin symbols",
+        "hash": "5d0c79527ad8f14e188a1c5c107f772762a93dc82760d786e0900628be51afd0",
+        "sourcePostId": "supplemental-supp-green-flight"
+      }
+    },
+    {
+      "id": "supp-snort-night",
+      "rawHash": "8ad08ba172abf41fff1b31a6f97c5b6634d3d8a525bb914a60bb182bf940506d",
+      "bytes": 240098,
+      "asset": {
+        "id": "supp-snort-night",
+        "kind": "image",
+        "sources": [
+          {
+            "width": 480,
+            "avif": "/media/memes/supp-snort-night-480.avif",
+            "webp": "/media/memes/supp-snort-night-480.webp"
+          },
+          {
+            "width": 960,
+            "avif": "/media/memes/supp-snort-night-960.avif",
+            "webp": "/media/memes/supp-snort-night-960.webp"
+          },
+          {
+            "width": 1440,
+            "avif": "/media/memes/supp-snort-night-1440.avif",
+            "webp": "/media/memes/supp-snort-night-1440.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2000,
+        "alt": "PEPECAT preparing glowing green catcoin powder at night",
+        "hash": "8ad08ba172abf41fff1b31a6f97c5b6634d3d8a525bb914a60bb182bf940506d",
+        "sourcePostId": "supplemental-supp-snort-night"
+      }
+    },
+    {
+      "id": "supp-night-drink",
+      "rawHash": "c7a3d89a1d9dfd3db9758d23a6eca681a5e8915bdfb8086d420953855dd801be",
+      "bytes": 32796,
+      "asset": {
+        "id": "supp-night-drink",
+        "kind": "image",
+        "sources": [
+          {
+            "width": 400,
+            "avif": "/media/memes/supp-night-drink-400.avif",
+            "webp": "/media/memes/supp-night-drink-400.webp"
+          }
+        ],
+        "width": 400,
+        "height": 400,
+        "alt": "PEPECAT in a loosened tie waiting at a dimly lit bar with a drink",
+        "hash": "c7a3d89a1d9dfd3db9758d23a6eca681a5e8915bdfb8086d420953855dd801be",
+        "sourcePostId": "supplemental-supp-night-drink"
+      }
+    },
+    {
+      "id": "supp-night-bar",
+      "rawHash": "c7a3d89a1d9dfd3db9758d23a6eca681a5e8915bdfb8086d420953855dd801be",
+      "bytes": 32796,
+      "asset": {
+        "id": "supp-night-bar",
+        "kind": "image",
+        "sources": [
+          {
+            "width": 400,
+            "avif": "/media/memes/supp-night-bar-400.avif",
+            "webp": "/media/memes/supp-night-bar-400.webp"
+          }
+        ],
+        "width": 400,
+        "height": 400,
+        "alt": "PEPECAT in a loosened tie at a night bar with a glowing glass of beer",
+        "hash": "c7a3d89a1d9dfd3db9758d23a6eca681a5e8915bdfb8086d420953855dd801be",
+        "sourcePostId": "supplemental-supp-night-bar"
+      }
+    },
+    {
+      "id": "supp-green-stage",
+      "rawHash": "cee967f4c9cc452e6b476eb6012926aee6452b2e6e454bf9c5ec180e938495e0",
+      "bytes": 174394,
+      "asset": {
+        "id": "supp-green-stage",
+        "kind": "image",
+        "sources": [
+          {
+            "width": 480,
+            "avif": "/media/memes/supp-green-stage-480.avif",
+            "webp": "/media/memes/supp-green-stage-480.webp"
+          },
+          {
+            "width": 960,
+            "avif": "/media/memes/supp-green-stage-960.avif",
+            "webp": "/media/memes/supp-green-stage-960.webp"
+          },
+          {
+            "width": 1024,
+            "avif": "/media/memes/supp-green-stage-1024.avif",
+            "webp": "/media/memes/supp-green-stage-1024.webp"
+          }
+        ],
+        "width": 1024,
+        "height": 1024,
+        "alt": "PEPECAT performing on stage above a crowd of glowing green candles",
+        "hash": "cee967f4c9cc452e6b476eb6012926aee6452b2e6e454bf9c5ec180e938495e0",
+        "sourcePostId": "supplemental-supp-green-stage"
+      }
+    },
+    {
+      "id": "supp-space-launch",
+      "rawHash": "5012f195a2ec44d81a6eb0a93126efbf9ffcf7e645ebc5b7c63e59c0f9a0b3ba",
+      "bytes": 207363,
+      "asset": {
+        "id": "supp-space-launch",
+        "kind": "image",
+        "sources": [
+          {
+            "width": 480,
+            "avif": "/media/memes/supp-space-launch-480.avif",
+            "webp": "/media/memes/supp-space-launch-480.webp"
+          },
+          {
+            "width": 823,
+            "avif": "/media/memes/supp-space-launch-823.avif",
+            "webp": "/media/memes/supp-space-launch-823.webp"
+          }
+        ],
+        "width": 823,
+        "height": 1024,
+        "alt": "PEPECAT riding a giant green candle into space with friends and junk food",
+        "hash": "5012f195a2ec44d81a6eb0a93126efbf9ffcf7e645ebc5b7c63e59c0f9a0b3ba",
+        "sourcePostId": "supplemental-supp-space-launch"
+      }
+    },
+    {
+      "id": "supp-fomo-buy",
+      "rawHash": "ed51b373f7e900ed9f4aff2312eeaefbafa0009348d3429d7267e8a6153a8dcd",
+      "bytes": 245827,
+      "asset": {
+        "id": "supp-fomo-buy",
+        "kind": "image",
+        "sources": [
+          {
+            "width": 480,
+            "avif": "/media/memes/supp-fomo-buy-480.avif",
+            "webp": "/media/memes/supp-fomo-buy-480.webp"
+          },
+          {
+            "width": 960,
+            "avif": "/media/memes/supp-fomo-buy-960.avif",
+            "webp": "/media/memes/supp-fomo-buy-960.webp"
+          },
+          {
+            "width": 1024,
+            "avif": "/media/memes/supp-fomo-buy-1024.avif",
+            "webp": "/media/memes/supp-fomo-buy-1024.webp"
+          }
+        ],
+        "width": 1024,
+        "height": 1024,
+        "alt": "PEPECAT reaching from a Raydium screen toward a glowing BUY button",
+        "hash": "ed51b373f7e900ed9f4aff2312eeaefbafa0009348d3429d7267e8a6153a8dcd",
+        "sourcePostId": "supplemental-supp-fomo-buy"
+      }
+    },
+    {
+      "id": "supp-green-gains",
+      "rawHash": "86bf7f3a3f9c697f04cb98d7648ab66f2e706f731c5efd3ea3f7ff17babc7a40",
+      "bytes": 186006,
+      "asset": {
+        "id": "supp-green-gains",
+        "kind": "image",
+        "sources": [
+          {
+            "width": 480,
+            "avif": "/media/memes/supp-green-gains-480.avif",
+            "webp": "/media/memes/supp-green-gains-480.webp"
+          },
+          {
+            "width": 960,
+            "avif": "/media/memes/supp-green-gains-960.avif",
+            "webp": "/media/memes/supp-green-gains-960.webp"
+          },
+          {
+            "width": 1024,
+            "avif": "/media/memes/supp-green-gains-1024.avif",
+            "webp": "/media/memes/supp-green-gains-1024.webp"
+          }
+        ],
+        "width": 1024,
+        "height": 1024,
+        "alt": "PEPECAT flying through neon green gain symbols",
+        "hash": "86bf7f3a3f9c697f04cb98d7648ab66f2e706f731c5efd3ea3f7ff17babc7a40",
+        "sourcePostId": "supplemental-supp-green-gains"
+      }
+    },
+    {
+      "id": "supp-green-lines",
+      "rawHash": "56e9db62d0f31ef21efb7719a60813f01fec5dbdcf3565bcb05c23594d19251c",
+      "bytes": 185157,
+      "asset": {
+        "id": "supp-green-lines",
+        "kind": "image",
+        "sources": [
+          {
+            "width": 480,
+            "avif": "/media/memes/supp-green-lines-480.avif",
+            "webp": "/media/memes/supp-green-lines-480.webp"
+          },
+          {
+            "width": 960,
+            "avif": "/media/memes/supp-green-lines-960.avif",
+            "webp": "/media/memes/supp-green-lines-960.webp"
+          },
+          {
+            "width": 1024,
+            "avif": "/media/memes/supp-green-lines-1024.avif",
+            "webp": "/media/memes/supp-green-lines-1024.webp"
+          }
+        ],
+        "width": 1024,
+        "height": 1024,
+        "alt": "PEPECAT meme illustration with glowing green lines on a table under a night sky",
+        "hash": "56e9db62d0f31ef21efb7719a60813f01fec5dbdcf3565bcb05c23594d19251c",
+        "sourcePostId": "supplemental-supp-green-lines"
+      }
+    },
+    {
+      "id": "supp-temple-expedition",
+      "rawHash": "4d0b6ac452323d88443017e28e6683d619aa276d24811ce1fe36dcec93ffc7d9",
+      "bytes": 4136820,
+      "asset": {
+        "id": "supp-temple-expedition",
+        "kind": "image",
+        "sources": [
+          {
+            "width": 480,
+            "avif": "/media/memes/supp-temple-expedition-480.avif",
+            "webp": "/media/memes/supp-temple-expedition-480.webp"
+          },
+          {
+            "width": 960,
+            "avif": "/media/memes/supp-temple-expedition-960.avif",
+            "webp": "/media/memes/supp-temple-expedition-960.webp"
+          },
+          {
+            "width": 1440,
+            "avif": "/media/memes/supp-temple-expedition-1440.avif",
+            "webp": "/media/memes/supp-temple-expedition-1440.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2000,
+        "alt": "PEPECAT explorers discovering a golden cat monument in a jungle temple",
+        "hash": "4d0b6ac452323d88443017e28e6683d619aa276d24811ce1fe36dcec93ffc7d9",
+        "sourcePostId": "supplemental-supp-temple-expedition"
+      }
+    },
+    {
+      "id": "supp-surfing-coins",
+      "rawHash": "e08ad0ed9fdea61edb9eeaf6201a277ea2d0b5945107261e3a7fa05a1640322b",
+      "bytes": 3346364,
+      "asset": {
+        "id": "supp-surfing-coins",
+        "kind": "image",
+        "sources": [
+          {
+            "width": 480,
+            "avif": "/media/memes/supp-surfing-coins-480.avif",
+            "webp": "/media/memes/supp-surfing-coins-480.webp"
+          },
+          {
+            "width": 960,
+            "avif": "/media/memes/supp-surfing-coins-960.avif",
+            "webp": "/media/memes/supp-surfing-coins-960.webp"
+          },
+          {
+            "width": 1440,
+            "avif": "/media/memes/supp-surfing-coins-1440.avif",
+            "webp": "/media/memes/supp-surfing-coins-1440.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2000,
+        "alt": "PEPECAT surfing above waves, fish, and falling gold coins",
+        "hash": "e08ad0ed9fdea61edb9eeaf6201a277ea2d0b5945107261e3a7fa05a1640322b",
+        "sourcePostId": "supplemental-supp-surfing-coins"
+      }
+    },
+    {
+      "id": "supp-treasure-cave",
+      "rawHash": "65b61255bfe611a9897b066b022efe7aa3b9ff4b912a2c8dc9b45bad0e44b306",
+      "bytes": 7909050,
+      "asset": {
+        "id": "supp-treasure-cave",
+        "kind": "image",
+        "sources": [
+          {
+            "width": 480,
+            "avif": "/media/memes/supp-treasure-cave-480.avif",
+            "webp": "/media/memes/supp-treasure-cave-480.webp"
+          },
+          {
+            "width": 960,
+            "avif": "/media/memes/supp-treasure-cave-960.avif",
+            "webp": "/media/memes/supp-treasure-cave-960.webp"
+          },
+          {
+            "width": 1440,
+            "avif": "/media/memes/supp-treasure-cave-1440.avif",
+            "webp": "/media/memes/supp-treasure-cave-1440.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2000,
+        "alt": "PEPECAT carrying a torch through a treasure-filled cave",
+        "hash": "65b61255bfe611a9897b066b022efe7aa3b9ff4b912a2c8dc9b45bad0e44b306",
+        "sourcePostId": "supplemental-supp-treasure-cave"
+      }
+    },
+    {
+      "id": "supp-buy-chat",
+      "rawHash": "227706b0ac4623e60e2c249efc2e2ad7e88b9da703951d9abb84fc13f1cc8151",
+      "bytes": 1123986,
+      "asset": {
+        "id": "supp-buy-chat",
+        "kind": "video",
+        "sources": [
+          {
+            "width": 1500,
+            "src": "/media/memes/supp-buy-chat.mp4"
+          }
+        ],
+        "poster": "/media/memes/supp-buy-chat-poster.webp",
+        "width": 1500,
+        "height": 1500,
+        "alt": "Animated PEPECAT buy banner with the cat climbing into the chat",
+        "hash": "227706b0ac4623e60e2c249efc2e2ad7e88b9da703951d9abb84fc13f1cc8151",
+        "sourcePostId": "supplemental-supp-buy-chat"
+      }
+    },
+    {
+      "id": "supp-hypnotic-cat",
+      "rawHash": "5a9c0c627abe63db3cde155a286fa40bb836b5cda8d1e8b9ea9df611dcc44161",
+      "bytes": 4408091,
+      "asset": {
+        "id": "supp-hypnotic-cat",
+        "kind": "video",
+        "sources": [
+          {
+            "width": 1200,
+            "src": "/media/memes/supp-hypnotic-cat.mp4"
+          }
+        ],
+        "poster": "/media/memes/supp-hypnotic-cat-poster.webp",
+        "width": 1200,
+        "height": 1200,
+        "alt": "Animated PEPECAT against a pink and cyan spiral",
+        "hash": "5a9c0c627abe63db3cde155a286fa40bb836b5cda8d1e8b9ea9df611dcc44161",
+        "sourcePostId": "supplemental-supp-hypnotic-cat"
+      }
+    },
+    {
+      "id": "supp-party-night",
+      "rawHash": "c69cf73dba8e79eb7dcfc2c5b9709fe1db23a2f797fd39af28ea809b9bd3ce0e",
+      "bytes": 7430606,
+      "asset": {
+        "id": "supp-party-night",
+        "kind": "video",
+        "sources": [
+          {
+            "width": 1500,
+            "src": "/media/memes/supp-party-night.mp4"
+          }
+        ],
+        "poster": "/media/memes/supp-party-night-poster.webp",
+        "width": 1500,
+        "height": 1500,
+        "alt": "Animated PEPECAT hosting a colorful party",
+        "hash": "c69cf73dba8e79eb7dcfc2c5b9709fe1db23a2f797fd39af28ea809b9bd3ce0e",
+        "sourcePostId": "supplemental-supp-party-night"
+      }
+    },
+    {
+      "id": "supp-pond-float",
+      "rawHash": "75c52e516f850e36289fad444cf78a48380d5e6d74b9a9cd7d1c10efcce5b1fa",
+      "bytes": 280289,
+      "asset": {
+        "id": "supp-pond-float",
+        "kind": "image",
+        "sources": [
+          {
+            "width": 480,
+            "avif": "/media/memes/supp-pond-float-480.avif",
+            "webp": "/media/memes/supp-pond-float-480.webp"
+          },
+          {
+            "width": 960,
+            "avif": "/media/memes/supp-pond-float-960.avif",
+            "webp": "/media/memes/supp-pond-float-960.webp"
+          },
+          {
+            "width": 1200,
+            "avif": "/media/memes/supp-pond-float-1200.avif",
+            "webp": "/media/memes/supp-pond-float-1200.webp"
+          }
+        ],
+        "width": 1200,
+        "height": 1200,
+        "alt": "PEPECAT floating peacefully in a sunlit forest pond",
+        "hash": "75c52e516f850e36289fad444cf78a48380d5e6d74b9a9cd7d1c10efcce5b1fa",
+        "sourcePostId": "supplemental-supp-pond-float"
+      }
+    },
+    {
+      "id": "supp-forest-rest",
+      "rawHash": "bf260cf04b28b79d5a342e18fe23f6a84a13e184f53852778df6e3afadd09f3e",
+      "bytes": 306006,
+      "asset": {
+        "id": "supp-forest-rest",
+        "kind": "image",
+        "sources": [
+          {
+            "width": 480,
+            "avif": "/media/memes/supp-forest-rest-480.avif",
+            "webp": "/media/memes/supp-forest-rest-480.webp"
+          },
+          {
+            "width": 960,
+            "avif": "/media/memes/supp-forest-rest-960.avif",
+            "webp": "/media/memes/supp-forest-rest-960.webp"
+          },
+          {
+            "width": 1200,
+            "avif": "/media/memes/supp-forest-rest-1200.avif",
+            "webp": "/media/memes/supp-forest-rest-1200.webp"
+          }
+        ],
+        "width": 1200,
+        "height": 1200,
+        "alt": "PEPECAT resting in a leafy forest clearing with friends",
+        "hash": "bf260cf04b28b79d5a342e18fe23f6a84a13e184f53852778df6e3afadd09f3e",
+        "sourcePostId": "supplemental-supp-forest-rest"
+      }
+    },
+    {
+      "id": "supp-laser-heist",
+      "rawHash": "afe608131f82c1a968d115e2e59d085aaf1a9f47580cb8c34cba73fe3e3c64d5",
+      "bytes": 232588,
+      "asset": {
+        "id": "supp-laser-heist",
+        "kind": "image",
+        "sources": [
+          {
+            "width": 480,
+            "avif": "/media/memes/supp-laser-heist-480.avif",
+            "webp": "/media/memes/supp-laser-heist-480.webp"
+          },
+          {
+            "width": 960,
+            "avif": "/media/memes/supp-laser-heist-960.avif",
+            "webp": "/media/memes/supp-laser-heist-960.webp"
+          },
+          {
+            "width": 1007,
+            "avif": "/media/memes/supp-laser-heist-1007.avif",
+            "webp": "/media/memes/supp-laser-heist-1007.webp"
+          }
+        ],
+        "width": 1007,
+        "height": 1280,
+        "alt": "PEPECAT dodging red security lasers above a vault of golden coins and a key",
+        "hash": "afe608131f82c1a968d115e2e59d085aaf1a9f47580cb8c34cba73fe3e3c64d5",
+        "sourcePostId": "supplemental-supp-laser-heist"
+      }
+    }
+  ]
+}

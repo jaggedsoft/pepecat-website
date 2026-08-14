@@ -692,7 +692,7 @@ h2 {
 }
 
 .lore__label h2 {
-  font-size: clamp(2.75rem, 4.5vw, 4.75rem);
+  font-size: clamp(1.375rem, 2.25vw, 2.375rem);
 }
 
 .lore__lead {

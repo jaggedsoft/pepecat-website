@@ -126,6 +126,8 @@ function App() {
           </div>
           <p className="lore__lead">Pepe found the internet. Then the internet gave him a cat.</p>
           <p className="lore__body"><strong>PEPECAT</strong> is that cat: moody, loud, endlessly remixable, and living on Solana.</p>
+          <p className="lore__body">He who controls the memes, controls the universe.</p>
+          <p className="lore__body">You can fade the noise, but not the movement. Don't let your memes be dreams.</p>
         </section>
 
         <section className="section token" id="token" aria-labelledby="token-title">

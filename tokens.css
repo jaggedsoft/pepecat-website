@@ -1,0 +1,47 @@
+:root {
+  color-scheme: dark;
+  --color-bg: oklch(14% 0.02 275);
+  --color-bg-deep: oklch(10% 0.018 275);
+  --color-panel: oklch(17% 0.025 275);
+  --color-panel-raised: oklch(20% 0.03 275);
+  --color-ink: oklch(94% 0.025 286);
+  --color-ink-strong: oklch(98% 0.012 286);
+  --color-muted: oklch(73% 0.055 286);
+  --color-faint: oklch(62% 0.05 286);
+  --color-divider: oklch(72% 0.09 286);
+  --color-divider-soft: oklch(39% 0.055 282);
+  --color-accent: oklch(68% 0.18 28);
+  --color-accent-ink: oklch(13% 0.025 275);
+  --color-shadow: oklch(5% 0.015 275 / 0.76);
+  --color-backdrop: oklch(7% 0.02 275 / 0.96);
+  --color-transparent: transparent;
+
+  --font-display: "Bricolage Grotesque Variable", "Arial Narrow", sans-serif;
+  --font-body: "Switzer", Arial, sans-serif;
+  --font-mono: "Space Mono", Consolas, monospace;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --space-9: 6rem;
+  --space-10: 8rem;
+  --text-body: 1rem;
+  --text-display: clamp(3.7rem, 8vw, 8.2rem);
+  --gutter: clamp(1rem, 3.6vw, 4rem);
+  --content-max: 100rem;
+  --rule: 1px solid var(--color-divider-soft);
+  --rule-strong: 1px solid var(--color-divider);
+  --cut-sm: 0.75rem;
+  --cut-md: 1.5rem;
+  --cut-lg: 2.5rem;
+  --radius-none: 0;
+  --focus-ring: 3px solid var(--color-accent);
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --dur-fast: 120ms;
+  --dur-settle: 700ms;
+}

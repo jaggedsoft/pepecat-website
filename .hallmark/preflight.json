@@ -1,0 +1,9 @@
+{
+  "date": "2026-08-12",
+  "framework": "React 19 + Vite 7 + TypeScript",
+  "fontStack": "Bricolage Grotesque Variable + Switzer + Space Mono",
+  "palette": "OKLCH custom properties",
+  "motion": "CSS-only, two restrained cues",
+  "spacing": "4px custom-property scale",
+  "source": "package.json, index.html, src/styles.css"
+}

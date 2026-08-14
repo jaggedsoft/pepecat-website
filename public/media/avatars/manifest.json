@@ -1,0 +1,925 @@
+{
+  "count": 40,
+  "assets": [
+    {
+      "id": "pc01",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc01-480.avif",
+          "webp": "/media/avatars/pc01-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc01-960.avif",
+          "webp": "/media/avatars/pc01-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc01-1440.avif",
+          "webp": "/media/avatars/pc01-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot grinning"
+    },
+    {
+      "id": "pc02",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc02-480.avif",
+          "webp": "/media/avatars/pc02-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc02-960.avif",
+          "webp": "/media/avatars/pc02-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc02-1440.avif",
+          "webp": "/media/avatars/pc02-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot shushing"
+    },
+    {
+      "id": "pc03",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc03-480.avif",
+          "webp": "/media/avatars/pc03-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc03-960.avif",
+          "webp": "/media/avatars/pc03-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc03-1440.avif",
+          "webp": "/media/avatars/pc03-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot sticking out its tongue"
+    },
+    {
+      "id": "pc04",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc04-480.avif",
+          "webp": "/media/avatars/pc04-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc04-960.avif",
+          "webp": "/media/avatars/pc04-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc04-1440.avif",
+          "webp": "/media/avatars/pc04-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot sleepy and yawning"
+    },
+    {
+      "id": "pc05",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc05-480.avif",
+          "webp": "/media/avatars/pc05-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc05-960.avif",
+          "webp": "/media/avatars/pc05-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc05-1440.avif",
+          "webp": "/media/avatars/pc05-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot teary-eyed"
+    },
+    {
+      "id": "pc06",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc06-480.avif",
+          "webp": "/media/avatars/pc06-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc06-960.avif",
+          "webp": "/media/avatars/pc06-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc06-1440.avif",
+          "webp": "/media/avatars/pc06-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot freezing cold"
+    },
+    {
+      "id": "pc07",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc07-480.avif",
+          "webp": "/media/avatars/pc07-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc07-960.avif",
+          "webp": "/media/avatars/pc07-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc07-1440.avif",
+          "webp": "/media/avatars/pc07-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot wearing sunglasses"
+    },
+    {
+      "id": "pc08",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc08-480.avif",
+          "webp": "/media/avatars/pc08-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc08-960.avif",
+          "webp": "/media/avatars/pc08-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc08-1440.avif",
+          "webp": "/media/avatars/pc08-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot surprised"
+    },
+    {
+      "id": "pc09",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc09-480.avif",
+          "webp": "/media/avatars/pc09-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc09-960.avif",
+          "webp": "/media/avatars/pc09-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc09-1440.avif",
+          "webp": "/media/avatars/pc09-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot showing off Solana eyes"
+    },
+    {
+      "id": "pc10",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc10-480.avif",
+          "webp": "/media/avatars/pc10-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc10-960.avif",
+          "webp": "/media/avatars/pc10-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc10-1440.avif",
+          "webp": "/media/avatars/pc10-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot making an okay gesture"
+    },
+    {
+      "id": "pc11",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc11-480.avif",
+          "webp": "/media/avatars/pc11-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc11-960.avif",
+          "webp": "/media/avatars/pc11-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc11-1440.avif",
+          "webp": "/media/avatars/pc11-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot wearing devil horns"
+    },
+    {
+      "id": "pc12",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc12-480.avif",
+          "webp": "/media/avatars/pc12-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc12-960.avif",
+          "webp": "/media/avatars/pc12-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc12-1440.avif",
+          "webp": "/media/avatars/pc12-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot seeing dollar signs"
+    },
+    {
+      "id": "pc13",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc13-480.avif",
+          "webp": "/media/avatars/pc13-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc13-960.avif",
+          "webp": "/media/avatars/pc13-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc13-1440.avif",
+          "webp": "/media/avatars/pc13-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot with eyes on fire"
+    },
+    {
+      "id": "pc14",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc14-480.avif",
+          "webp": "/media/avatars/pc14-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc14-960.avif",
+          "webp": "/media/avatars/pc14-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc14-1440.avif",
+          "webp": "/media/avatars/pc14-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot unamused"
+    },
+    {
+      "id": "pc15",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc15-480.avif",
+          "webp": "/media/avatars/pc15-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc15-960.avif",
+          "webp": "/media/avatars/pc15-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc15-1440.avif",
+          "webp": "/media/avatars/pc15-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot blowing a kiss"
+    },
+    {
+      "id": "pc16",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc16-480.avif",
+          "webp": "/media/avatars/pc16-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc16-960.avif",
+          "webp": "/media/avatars/pc16-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc16-1440.avif",
+          "webp": "/media/avatars/pc16-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot shedding one tear"
+    },
+    {
+      "id": "pc17",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc17-480.avif",
+          "webp": "/media/avatars/pc17-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc17-960.avif",
+          "webp": "/media/avatars/pc17-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc17-1440.avif",
+          "webp": "/media/avatars/pc17-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot with heart eyes"
+    },
+    {
+      "id": "pc18",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc18-480.avif",
+          "webp": "/media/avatars/pc18-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc18-960.avif",
+          "webp": "/media/avatars/pc18-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc18-1440.avif",
+          "webp": "/media/avatars/pc18-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot furious"
+    },
+    {
+      "id": "pc19",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc19-480.avif",
+          "webp": "/media/avatars/pc19-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc19-960.avif",
+          "webp": "/media/avatars/pc19-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc19-1440.avif",
+          "webp": "/media/avatars/pc19-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot thinking hard"
+    },
+    {
+      "id": "pc20",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc20-480.avif",
+          "webp": "/media/avatars/pc20-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc20-960.avif",
+          "webp": "/media/avatars/pc20-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc20-1440.avif",
+          "webp": "/media/avatars/pc20-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot snorting with frustration"
+    },
+    {
+      "id": "pc21",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc21-480.avif",
+          "webp": "/media/avatars/pc21-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc21-960.avif",
+          "webp": "/media/avatars/pc21-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc21-1440.avif",
+          "webp": "/media/avatars/pc21-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot surrounded by hearts"
+    },
+    {
+      "id": "pc22",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc22-480.avif",
+          "webp": "/media/avatars/pc22-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc22-960.avif",
+          "webp": "/media/avatars/pc22-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc22-1440.avif",
+          "webp": "/media/avatars/pc22-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot licking its lips"
+    },
+    {
+      "id": "pc23",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc23-480.avif",
+          "webp": "/media/avatars/pc23-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc23-960.avif",
+          "webp": "/media/avatars/pc23-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc23-1440.avif",
+          "webp": "/media/avatars/pc23-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot sweating nervously"
+    },
+    {
+      "id": "pc24",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc24-480.avif",
+          "webp": "/media/avatars/pc24-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc24-960.avif",
+          "webp": "/media/avatars/pc24-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc24-1440.avif",
+          "webp": "/media/avatars/pc24-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot laughing with tears"
+    },
+    {
+      "id": "pc25",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc25-480.avif",
+          "webp": "/media/avatars/pc25-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc25-960.avif",
+          "webp": "/media/avatars/pc25-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc25-1440.avif",
+          "webp": "/media/avatars/pc25-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot celebrating in a party hat"
+    },
+    {
+      "id": "pc26",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc26-480.avif",
+          "webp": "/media/avatars/pc26-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc26-960.avif",
+          "webp": "/media/avatars/pc26-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc26-1440.avif",
+          "webp": "/media/avatars/pc26-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot worried"
+    },
+    {
+      "id": "pc27",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc27-480.avif",
+          "webp": "/media/avatars/pc27-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc27-960.avif",
+          "webp": "/media/avatars/pc27-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc27-1440.avif",
+          "webp": "/media/avatars/pc27-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot cheering excitedly"
+    },
+    {
+      "id": "pc28",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc28-480.avif",
+          "webp": "/media/avatars/pc28-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc28-960.avif",
+          "webp": "/media/avatars/pc28-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc28-1440.avif",
+          "webp": "/media/avatars/pc28-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot feeling sick"
+    },
+    {
+      "id": "pc29",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc29-480.avif",
+          "webp": "/media/avatars/pc29-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc29-960.avif",
+          "webp": "/media/avatars/pc29-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc29-1440.avif",
+          "webp": "/media/avatars/pc29-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot winking with its tongue out"
+    },
+    {
+      "id": "pc30",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc30-480.avif",
+          "webp": "/media/avatars/pc30-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc30-960.avif",
+          "webp": "/media/avatars/pc30-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc30-1440.avif",
+          "webp": "/media/avatars/pc30-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot crying dramatically"
+    },
+    {
+      "id": "pc31",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc31-480.avif",
+          "webp": "/media/avatars/pc31-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc31-960.avif",
+          "webp": "/media/avatars/pc31-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc31-1440.avif",
+          "webp": "/media/avatars/pc31-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot with star eyes"
+    },
+    {
+      "id": "pc32",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc32-480.avif",
+          "webp": "/media/avatars/pc32-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc32-960.avif",
+          "webp": "/media/avatars/pc32-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc32-1440.avif",
+          "webp": "/media/avatars/pc32-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot making a heart with its paws"
+    },
+    {
+      "id": "pc33",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc33-480.avif",
+          "webp": "/media/avatars/pc33-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc33-960.avif",
+          "webp": "/media/avatars/pc33-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc33-1440.avif",
+          "webp": "/media/avatars/pc33-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot eating a snack"
+    },
+    {
+      "id": "pc34",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc34-480.avif",
+          "webp": "/media/avatars/pc34-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc34-960.avif",
+          "webp": "/media/avatars/pc34-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc34-1440.avif",
+          "webp": "/media/avatars/pc34-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot wearing a halo"
+    },
+    {
+      "id": "pc35",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc35-480.avif",
+          "webp": "/media/avatars/pc35-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc35-960.avif",
+          "webp": "/media/avatars/pc35-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc35-1440.avif",
+          "webp": "/media/avatars/pc35-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot covering its face in shock"
+    },
+    {
+      "id": "pc36",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc36-480.avif",
+          "webp": "/media/avatars/pc36-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc36-960.avif",
+          "webp": "/media/avatars/pc36-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc36-1440.avif",
+          "webp": "/media/avatars/pc36-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot crying one giant tear"
+    },
+    {
+      "id": "pc37",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc37-480.avif",
+          "webp": "/media/avatars/pc37-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc37-960.avif",
+          "webp": "/media/avatars/pc37-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc37-1440.avif",
+          "webp": "/media/avatars/pc37-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot green and blushing"
+    },
+    {
+      "id": "pc38",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc38-480.avif",
+          "webp": "/media/avatars/pc38-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc38-960.avif",
+          "webp": "/media/avatars/pc38-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc38-1440.avif",
+          "webp": "/media/avatars/pc38-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot wearing a head bandage"
+    },
+    {
+      "id": "pc39",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc39-480.avif",
+          "webp": "/media/avatars/pc39-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc39-960.avif",
+          "webp": "/media/avatars/pc39-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc39-1440.avif",
+          "webp": "/media/avatars/pc39-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot blowing its nose"
+    },
+    {
+      "id": "pc40",
+      "sources": [
+        {
+          "width": 480,
+          "avif": "/media/avatars/pc40-480.avif",
+          "webp": "/media/avatars/pc40-480.webp"
+        },
+        {
+          "width": 960,
+          "avif": "/media/avatars/pc40-960.avif",
+          "webp": "/media/avatars/pc40-960.webp"
+        },
+        {
+          "width": 1440,
+          "avif": "/media/avatars/pc40-1440.avif",
+          "webp": "/media/avatars/pc40-1440.webp"
+        }
+      ],
+      "width": 2000,
+      "height": 2000,
+      "alt": "PEPECAT mascot as a skull"
+    }
+  ]
+}

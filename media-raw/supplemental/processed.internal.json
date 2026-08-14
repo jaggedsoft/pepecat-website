@@ -1,0 +1,254 @@
+{
+  "importDate": "2026-08-12",
+  "assets": [
+    {
+      "id": "supp-temple-expedition",
+      "rawHash": "4d0b6ac452323d88443017e28e6683d619aa276d24811ce1fe36dcec93ffc7d9",
+      "bytes": 4136820,
+      "asset": {
+        "id": "supp-temple-expedition",
+        "kind": "image",
+        "sources": [
+          {
+            "width": 480,
+            "avif": "/media/memes/supp-temple-expedition-480.avif",
+            "webp": "/media/memes/supp-temple-expedition-480.webp"
+          },
+          {
+            "width": 960,
+            "avif": "/media/memes/supp-temple-expedition-960.avif",
+            "webp": "/media/memes/supp-temple-expedition-960.webp"
+          },
+          {
+            "width": 1440,
+            "avif": "/media/memes/supp-temple-expedition-1440.avif",
+            "webp": "/media/memes/supp-temple-expedition-1440.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2000,
+        "alt": "PEPECAT explorers discovering a golden cat monument in a jungle temple",
+        "hash": "4d0b6ac452323d88443017e28e6683d619aa276d24811ce1fe36dcec93ffc7d9",
+        "sourcePostId": "supplemental-supp-temple-expedition"
+      }
+    },
+    {
+      "id": "supp-surfing-coins",
+      "rawHash": "e08ad0ed9fdea61edb9eeaf6201a277ea2d0b5945107261e3a7fa05a1640322b",
+      "bytes": 3346364,
+      "asset": {
+        "id": "supp-surfing-coins",
+        "kind": "image",
+        "sources": [
+          {
+            "width": 480,
+            "avif": "/media/memes/supp-surfing-coins-480.avif",
+            "webp": "/media/memes/supp-surfing-coins-480.webp"
+          },
+          {
+            "width": 960,
+            "avif": "/media/memes/supp-surfing-coins-960.avif",
+            "webp": "/media/memes/supp-surfing-coins-960.webp"
+          },
+          {
+            "width": 1440,
+            "avif": "/media/memes/supp-surfing-coins-1440.avif",
+            "webp": "/media/memes/supp-surfing-coins-1440.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2000,
+        "alt": "PEPECAT surfing above waves, fish, and falling gold coins",
+        "hash": "e08ad0ed9fdea61edb9eeaf6201a277ea2d0b5945107261e3a7fa05a1640322b",
+        "sourcePostId": "supplemental-supp-surfing-coins"
+      }
+    },
+    {
+      "id": "supp-treasure-cave",
+      "rawHash": "65b61255bfe611a9897b066b022efe7aa3b9ff4b912a2c8dc9b45bad0e44b306",
+      "bytes": 7909050,
+      "asset": {
+        "id": "supp-treasure-cave",
+        "kind": "image",
+        "sources": [
+          {
+            "width": 480,
+            "avif": "/media/memes/supp-treasure-cave-480.avif",
+            "webp": "/media/memes/supp-treasure-cave-480.webp"
+          },
+          {
+            "width": 960,
+            "avif": "/media/memes/supp-treasure-cave-960.avif",
+            "webp": "/media/memes/supp-treasure-cave-960.webp"
+          },
+          {
+            "width": 1440,
+            "avif": "/media/memes/supp-treasure-cave-1440.avif",
+            "webp": "/media/memes/supp-treasure-cave-1440.webp"
+          }
+        ],
+        "width": 2000,
+        "height": 2000,
+        "alt": "PEPECAT carrying a torch through a treasure-filled cave",
+        "hash": "65b61255bfe611a9897b066b022efe7aa3b9ff4b912a2c8dc9b45bad0e44b306",
+        "sourcePostId": "supplemental-supp-treasure-cave"
+      }
+    },
+    {
+      "id": "supp-buy-chat",
+      "rawHash": "227706b0ac4623e60e2c249efc2e2ad7e88b9da703951d9abb84fc13f1cc8151",
+      "bytes": 1123986,
+      "asset": {
+        "id": "supp-buy-chat",
+        "kind": "video",
+        "sources": [
+          {
+            "width": 1500,
+            "src": "/media/memes/supp-buy-chat.mp4"
+          }
+        ],
+        "poster": "/media/memes/supp-buy-chat-poster.webp",
+        "width": 1500,
+        "height": 1500,
+        "alt": "Animated PEPECAT buy banner with the cat climbing into the chat",
+        "hash": "227706b0ac4623e60e2c249efc2e2ad7e88b9da703951d9abb84fc13f1cc8151",
+        "sourcePostId": "supplemental-supp-buy-chat"
+      }
+    },
+    {
+      "id": "supp-hypnotic-cat",
+      "rawHash": "5a9c0c627abe63db3cde155a286fa40bb836b5cda8d1e8b9ea9df611dcc44161",
+      "bytes": 4408091,
+      "asset": {
+        "id": "supp-hypnotic-cat",
+        "kind": "video",
+        "sources": [
+          {
+            "width": 1200,
+            "src": "/media/memes/supp-hypnotic-cat.mp4"
+          }
+        ],
+        "poster": "/media/memes/supp-hypnotic-cat-poster.webp",
+        "width": 1200,
+        "height": 1200,
+        "alt": "Animated PEPECAT against a pink and cyan spiral",
+        "hash": "5a9c0c627abe63db3cde155a286fa40bb836b5cda8d1e8b9ea9df611dcc44161",
+        "sourcePostId": "supplemental-supp-hypnotic-cat"
+      }
+    },
+    {
+      "id": "supp-party-night",
+      "rawHash": "c69cf73dba8e79eb7dcfc2c5b9709fe1db23a2f797fd39af28ea809b9bd3ce0e",
+      "bytes": 7430606,
+      "asset": {
+        "id": "supp-party-night",
+        "kind": "video",
+        "sources": [
+          {
+            "width": 1500,
+            "src": "/media/memes/supp-party-night.mp4"
+          }
+        ],
+        "poster": "/media/memes/supp-party-night-poster.webp",
+        "width": 1500,
+        "height": 1500,
+        "alt": "Animated PEPECAT hosting a colorful party",
+        "hash": "c69cf73dba8e79eb7dcfc2c5b9709fe1db23a2f797fd39af28ea809b9bd3ce0e",
+        "sourcePostId": "supplemental-supp-party-night"
+      }
+    },
+    {
+      "id": "supp-pond-float",
+      "rawHash": "75c52e516f850e36289fad444cf78a48380d5e6d74b9a9cd7d1c10efcce5b1fa",
+      "bytes": 280289,
+      "asset": {
+        "id": "supp-pond-float",
+        "kind": "image",
+        "sources": [
+          {
+            "width": 480,
+            "avif": "/media/memes/supp-pond-float-480.avif",
+            "webp": "/media/memes/supp-pond-float-480.webp"
+          },
+          {
+            "width": 960,
+            "avif": "/media/memes/supp-pond-float-960.avif",
+            "webp": "/media/memes/supp-pond-float-960.webp"
+          },
+          {
+            "width": 1200,
+            "avif": "/media/memes/supp-pond-float-1200.avif",
+            "webp": "/media/memes/supp-pond-float-1200.webp"
+          }
+        ],
+        "width": 1200,
+        "height": 1200,
+        "alt": "PEPECAT floating peacefully in a sunlit forest pond",
+        "hash": "75c52e516f850e36289fad444cf78a48380d5e6d74b9a9cd7d1c10efcce5b1fa",
+        "sourcePostId": "supplemental-supp-pond-float"
+      }
+    },
+    {
+      "id": "supp-forest-rest",
+      "rawHash": "bf260cf04b28b79d5a342e18fe23f6a84a13e184f53852778df6e3afadd09f3e",
+      "bytes": 306006,
+      "asset": {
+        "id": "supp-forest-rest",
+        "kind": "image",
+        "sources": [
+          {
+            "width": 480,
+            "avif": "/media/memes/supp-forest-rest-480.avif",
+            "webp": "/media/memes/supp-forest-rest-480.webp"
+          },
+          {
+            "width": 960,
+            "avif": "/media/memes/supp-forest-rest-960.avif",
+            "webp": "/media/memes/supp-forest-rest-960.webp"
+          },
+          {
+            "width": 1200,
+            "avif": "/media/memes/supp-forest-rest-1200.avif",
+            "webp": "/media/memes/supp-forest-rest-1200.webp"
+          }
+        ],
+        "width": 1200,
+        "height": 1200,
+        "alt": "PEPECAT resting in a leafy forest clearing with friends",
+        "hash": "bf260cf04b28b79d5a342e18fe23f6a84a13e184f53852778df6e3afadd09f3e",
+        "sourcePostId": "supplemental-supp-forest-rest"
+      }
+    },
+    {
+      "id": "supp-laser-heist",
+      "rawHash": "afe608131f82c1a968d115e2e59d085aaf1a9f47580cb8c34cba73fe3e3c64d5",
+      "bytes": 232588,
+      "asset": {
+        "id": "supp-laser-heist",
+        "kind": "image",
+        "sources": [
+          {
+            "width": 480,
+            "avif": "/media/memes/supp-laser-heist-480.avif",
+            "webp": "/media/memes/supp-laser-heist-480.webp"
+          },
+          {
+            "width": 960,
+            "avif": "/media/memes/supp-laser-heist-960.avif",
+            "webp": "/media/memes/supp-laser-heist-960.webp"
+          },
+          {
+            "width": 1007,
+            "avif": "/media/memes/supp-laser-heist-1007.avif",
+            "webp": "/media/memes/supp-laser-heist-1007.webp"
+          }
+        ],
+        "width": 1007,
+        "height": 1280,
+        "alt": "PEPECAT dodging red security lasers above a vault of golden coins and a key",
+        "hash": "afe608131f82c1a968d115e2e59d085aaf1a9f47580cb8c34cba73fe3e3c64d5",
+        "sourcePostId": "supplemental-supp-laser-heist"
+      }
+    }
+  ]
+}

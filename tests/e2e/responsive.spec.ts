@@ -8,7 +8,7 @@ for (const width of widths) {
     await page.goto('/')
 
     await expect(page.getByRole('heading', { level: 1 })).toBeVisible()
-    await expect(page.getByRole('button', { name: /see more memes/i })).toBeVisible()
+    await expect(page.getByRole('button', { name: /more memes/i })).toBeVisible()
 
     const layout = await page.evaluate(() => ({
       viewport: document.documentElement.clientWidth,

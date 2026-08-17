@@ -1,5 +1,5 @@
 {
-  "importDate": "2026-08-14",
+  "importDate": "2026-08-17",
   "assets": [
     {
       "id": "supp-green-night",
@@ -657,6 +657,94 @@
         "alt": "PEPECAT dodging red security lasers above a vault of golden coins and a key",
         "hash": "afe608131f82c1a968d115e2e59d085aaf1a9f47580cb8c34cba73fe3e3c64d5",
         "sourcePostId": "supplemental-supp-laser-heist"
+      }
+    },
+    {
+      "id": "supp-summer-squad",
+      "rawHash": "b25fc39a561c462889f595a12e3d7d88a73ccb65c365e7ee9520c32e3dc5958b",
+      "bytes": 1329842,
+      "asset": {
+        "id": "supp-summer-squad",
+        "kind": "image",
+        "sources": [
+          {
+            "width": 480,
+            "avif": "/media/memes/supp-summer-squad-480.avif",
+            "webp": "/media/memes/supp-summer-squad-480.webp"
+          },
+          {
+            "width": 900,
+            "avif": "/media/memes/supp-summer-squad-900.avif",
+            "webp": "/media/memes/supp-summer-squad-900.webp"
+          }
+        ],
+        "width": 900,
+        "height": 778,
+        "alt": "A colorful PEPECAT squad splashing together in the ocean under a smiling sun",
+        "hash": "b25fc39a561c462889f595a12e3d7d88a73ccb65c365e7ee9520c32e3dc5958b",
+        "sourcePostId": "supplemental-supp-summer-squad"
+      }
+    },
+    {
+      "id": "supp-neon-fries",
+      "rawHash": "26d2ef9192f4d0a64672bd2d4ec2853f700ed0aef9ac2dda4d02b9958e8a05a9",
+      "bytes": 6406719,
+      "asset": {
+        "id": "supp-neon-fries",
+        "kind": "image",
+        "sources": [
+          {
+            "width": 480,
+            "avif": "/media/memes/supp-neon-fries-480.avif",
+            "webp": "/media/memes/supp-neon-fries-480.webp"
+          },
+          {
+            "width": 960,
+            "avif": "/media/memes/supp-neon-fries-960.avif",
+            "webp": "/media/memes/supp-neon-fries-960.webp"
+          },
+          {
+            "width": 1440,
+            "avif": "/media/memes/supp-neon-fries-1440.avif",
+            "webp": "/media/memes/supp-neon-fries-1440.webp"
+          }
+        ],
+        "width": 3072,
+        "height": 2678,
+        "alt": "PEPECAT serving glowing green fries in a graffiti-covered city alley",
+        "hash": "26d2ef9192f4d0a64672bd2d4ec2853f700ed0aef9ac2dda4d02b9958e8a05a9",
+        "sourcePostId": "supplemental-supp-neon-fries"
+      }
+    },
+    {
+      "id": "supp-trading-desk",
+      "rawHash": "56760075e84162f15d7f113d589fcec60853277dad9326ada1343e1beded1dfb",
+      "bytes": 4243214,
+      "asset": {
+        "id": "supp-trading-desk",
+        "kind": "image",
+        "sources": [
+          {
+            "width": 480,
+            "avif": "/media/memes/supp-trading-desk-480.avif",
+            "webp": "/media/memes/supp-trading-desk-480.webp"
+          },
+          {
+            "width": 960,
+            "avif": "/media/memes/supp-trading-desk-960.avif",
+            "webp": "/media/memes/supp-trading-desk-960.webp"
+          },
+          {
+            "width": 1440,
+            "avif": "/media/memes/supp-trading-desk-1440.avif",
+            "webp": "/media/memes/supp-trading-desk-1440.webp"
+          }
+        ],
+        "width": 1920,
+        "height": 1080,
+        "alt": "A realistic PEPECAT trader watching crypto charts at a late-night trading desk",
+        "hash": "56760075e84162f15d7f113d589fcec60853277dad9326ada1343e1beded1dfb",
+        "sourcePostId": "supplemental-supp-trading-desk"
       }
     }
   ]

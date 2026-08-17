@@ -85,7 +85,7 @@ function App() {
               <span aria-hidden="true">·</span>
               <span>PEPECAT</span>
               <span aria-hidden="true">·</span>
-              <span>On-chain meme fun</span>
+              <span>Once in a lifetime narrative</span>
             </p>
 
             <h1 id="hero-title" aria-label="The cat has entered the chat.">
@@ -104,7 +104,7 @@ function App() {
             <dl className="hero__metrics mono">
               <div>
                 <dt>Artworks</dt>
-                <dd>{manifest?.finalCount ?? 418}</dd>
+                <dd>{manifest?.finalCount ?? 421}</dd>
               </div>
               <div>
                 <dt>Contributors</dt>
@@ -166,11 +166,17 @@ function App() {
         </section>
 
         <section className="section founders" aria-labelledby="founders-title">
-          <h2 id="founders-title">Founded by</h2>
-          <p>
-            <a href="https://x.com/jaggedsoft" target="_blank" rel="noreferrer noopener">Jaggedsoft <span aria-hidden="true">↗</span></a>
-            {' '}&amp;{' '}
-            <a href="https://x.com/TrystanNFT" target="_blank" rel="noreferrer noopener">TrystanNFT <span aria-hidden="true">↗</span></a>.
+          <h2 id="founders-title">Made with 💖 by founders</h2>
+          <p className="founders__people">
+            <span className="founder founder--jagged">
+              <img src="/media/founders/jaggedsoft.gif" width="90" height="90" alt="Jaggedsoft profile" />
+              <a href="https://x.com/jaggedsoft" target="_blank" rel="noreferrer noopener">Jaggedsoft <span aria-hidden="true">↗</span></a>
+            </span>
+            <span aria-hidden="true">&amp;</span>
+            <span className="founder founder--trystan">
+              <a href="https://x.com/TrystanNFT" target="_blank" rel="noreferrer noopener">TrystanNFT <span aria-hidden="true">↗</span></a>
+              <img src="/media/founders/trystannft.png" width="90" height="90" alt="TrystanNFT profile" />
+            </span>
           </p>
         </section>
 
@@ -183,7 +189,7 @@ function App() {
             </picture>
           </div>
           <div className="closing__copy">
-            <h2 id="closing-title">Join the community, memes included</h2>
+            <h2 id="closing-title">Join the fun meme magic community</h2>
             <div className="closing__actions">
               <a className="action-button" href={COMMUNITY_URL} target="_blank" rel="noreferrer noopener">
                 Join Telegram
@@ -199,11 +205,11 @@ function App() {
       </main>
 
       <footer className="site-footer">
-        <p className="footer-line">The cat stays in the chat.</p>
+        <p className="footer-line">#DiamondPaws <strong>💎🐾</strong></p>
         <div className="footer-meta">
           <p className="footer-brand">$PEPECAT</p>
-          <p className="disclaimer"><strong>Risk disclaimer:</strong> $PEPECAT is a meme token with no intrinsic value or expectation of financial return. It is not financial advice. Crypto assets are highly volatile; only participate with funds you can afford to lose, and always do your own research.</p>
-          <p className="mono">Solana · Catcoin Culture · 2026</p>
+          <p className="disclaimer"><strong>Risk Disclaimer:</strong> $PEPECAT is a meme token created for entertainment purposes only. We offer no expectation of financial returns. Nothing on this site constitutes financial, investment, or legal advice. Crypto assets are highly volatile — only participate with funds you can afford to lose, and always do your own research.</p>
+          <p className="mono">Solana · Catcoin Culture · 2026<br />No affiliation with Matt Furie</p>
         </div>
       </footer>
     </div>

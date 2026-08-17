@@ -19,19 +19,19 @@ test.beforeEach(async ({ page }) => {
 })
 
 test('publishes complete Open Graph and Twitter social metadata', async ({ page, request }) => {
-  await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href', 'https://pepecat.vip/')
+  await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href', 'https://pepecat.fun/')
   await expect(page.locator('meta[name="theme-color"]')).toHaveAttribute('content', '#070414')
   await expect(page.locator('link[rel="preload"][as="image"]')).toHaveAttribute('href', '/media/hero/pepecat-hero-960.avif')
   await expect(page.locator('meta[property="og:type"]')).toHaveAttribute('content', 'website')
   await expect(page.locator('meta[property="og:title"]')).toHaveAttribute('content', /The Cat Has Entered the Chat/)
   await expect(page.locator('meta[property="og:description"]')).toHaveAttribute('content', /community-made collection of memes/)
-  await expect(page.locator('meta[property="og:image"]')).toHaveAttribute('content', 'https://pepecat.vip/social-card-pepecat-v3.png')
+  await expect(page.locator('meta[property="og:image"]')).toHaveAttribute('content', 'https://pepecat.fun/social-card-pepecat-v3.png')
   await expect(page.locator('meta[property="og:image:width"]')).toHaveAttribute('content', '1200')
   await expect(page.locator('meta[property="og:image:height"]')).toHaveAttribute('content', '675')
   await expect(page.locator('meta[property="og:image:alt"]')).toHaveAttribute('content', /PEPECAT.*mascot/)
   await expect(page.locator('meta[name="twitter:card"]')).toHaveAttribute('content', 'summary_large_image')
   await expect(page.locator('meta[name="twitter:description"]')).toHaveAttribute('content', /community-made collection of memes/)
-  await expect(page.locator('meta[name="twitter:image"]')).toHaveAttribute('content', 'https://pepecat.vip/social-card-pepecat-v3.png')
+  await expect(page.locator('meta[name="twitter:image"]')).toHaveAttribute('content', 'https://pepecat.fun/social-card-pepecat-v3.png')
   await expect(page.locator('meta[name="twitter:image:alt"]')).toHaveAttribute('content', /PEPECAT.*mascot/)
 
   const card = await request.get('/social-card-pepecat-v3.png')
@@ -47,7 +47,7 @@ test('renders the editorial page structure and working anchor navigation', async
   await expect(page.locator('img[src*="/media/avatars/pc03"]')).toHaveCount(0)
   await expect(page.locator('.hero__verified')).toContainText(/verified by culture/i)
   await expect(page.locator('.hero__verified img')).toHaveAttribute('src', '/media/hero/verified-by-culture.png')
-  await expect(page.getByRole('heading', { level: 2, name: 'Join the community, memes included' })).toBeVisible()
+  await expect(page.getByRole('heading', { level: 2, name: 'Join the fun meme magic community' })).toBeVisible()
   await expect(page.getByRole('heading', { name: /40 moods/i })).toHaveCount(0)
 
   const anchors = [
@@ -61,6 +61,8 @@ test('renders the editorial page structure and working anchor navigation', async
     const link = page.getByRole('navigation').getByRole('link', { name: label, exact: true })
     await expect(link).toHaveAttribute('href', hash)
     await link.click()
+    await expect(page).toHaveURL(new RegExp(`${hash}$`))
+    await page.locator(hash).scrollIntoViewIfNeeded()
     await expect(page.locator(hash)).toBeInViewport()
   }
 
@@ -152,7 +154,12 @@ test('autoplays gallery video on mute and provides a text alternative', async ({
   const manifest = (await manifestResponse.json()) as {
     assets: Array<{ id: string; kind: 'image' | 'video'; alt: string }>
   }
-  expect(manifest.assets.filter((asset) => asset.id.startsWith('supp-'))).toHaveLength(23)
+  expect(manifest.assets.filter((asset) => asset.id.startsWith('supp-'))).toHaveLength(26)
+  expect(manifest.assets).toEqual(expect.arrayContaining([
+    expect.objectContaining({ id: 'supp-summer-squad', kind: 'image' }),
+    expect.objectContaining({ id: 'supp-neon-fries', kind: 'image' }),
+    expect.objectContaining({ id: 'supp-trading-desk', kind: 'image' }),
+  ]))
   const video = manifest.assets.find((asset) => asset.kind === 'video')
   expect(video, 'The local Telegram snapshot must include its audited video').toBeTruthy()
 

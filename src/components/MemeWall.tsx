@@ -126,7 +126,7 @@ export function MemeWall({ manifest, totalCount }: MemeWallProps) {
       <div className="archive-controls">
         <p className="archive-count mono">{totalCount || manifest.length} Memes</p>
         <button ref={shuffleButtonRef} className="action-button" type="button" onClick={shuffle}>
-          See more memes
+          👀 More memes
           <span className="btn-icon" aria-hidden="true">↝</span>
         </button>
       </div>

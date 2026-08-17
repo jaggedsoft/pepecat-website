@@ -43,7 +43,7 @@ describe('MemeWall', () => {
     sessionStorage.setItem('pepecat:meme-selection:v3', JSON.stringify(current.map(({ id }) => id)))
 
     render(<MemeWall manifest={manifest} totalCount={manifest.length} />)
-    fireEvent.click(screen.getByRole('button', { name: /see more memes/i }))
+    fireEvent.click(screen.getByRole('button', { name: /more memes/i }))
 
     const currentLabels = new Set(current.map(({ alt }) => `Open ${alt}`))
     const openers = screen.getAllByRole('button', { name: /^open pepecat meme/i })

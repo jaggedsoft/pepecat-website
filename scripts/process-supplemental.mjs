@@ -21,7 +21,7 @@ import {
   runProcess,
 } from './lib/media-tools.mjs'
 
-const IMPORT_DATE = '2026-08-14'
+const IMPORT_DATE = '2026-08-17'
 const TARGET_WIDTHS = [480, 960, 1440]
 const RAW_DIRECTORY = path.join(PROJECT_ROOT, 'media-raw', 'supplemental')
 const OUTPUT_DIRECTORY = path.join(PROJECT_ROOT, 'public', 'media', 'memes')
@@ -165,6 +165,24 @@ const ITEMS = [
     kind: 'image',
     source: 'C:/Users/AI/Documents/pepecat/photo_2026-08-11_19-51-50.jpg',
     alt: 'PEPECAT dodging red security lasers above a vault of golden coins and a key',
+  },
+  {
+    id: 'supp-summer-squad',
+    kind: 'image',
+    source: path.join(RAW_DIRECTORY, 'supp-summer-squad.png'),
+    alt: 'A colorful PEPECAT squad splashing together in the ocean under a smiling sun',
+  },
+  {
+    id: 'supp-neon-fries',
+    kind: 'image',
+    source: path.join(RAW_DIRECTORY, 'supp-neon-fries.png'),
+    alt: 'PEPECAT serving glowing green fries in a graffiti-covered city alley',
+  },
+  {
+    id: 'supp-trading-desk',
+    kind: 'image',
+    source: path.join(RAW_DIRECTORY, 'supp-trading-desk.png'),
+    alt: 'A realistic PEPECAT trader watching crypto charts at a late-night trading desk',
   },
 ]
 

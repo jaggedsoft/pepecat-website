@@ -46,7 +46,10 @@ export function TokenReceipt() {
         {facts.map(([label, value]) => (
           <div key={label}>
             <dt className="mono">{label}</dt>
-            <dd>{value}{label === 'Current supply' && <small> PEPECAT</small>}</dd>
+            <dd>
+              {['Mint authority', 'Freeze authority', 'Verified'].includes(label) && <span aria-hidden="true">&#9989; </span>}
+              {value}{label === 'Current supply' && <small> PEPECAT</small>}
+            </dd>
           </div>
         ))}
       </dl>
